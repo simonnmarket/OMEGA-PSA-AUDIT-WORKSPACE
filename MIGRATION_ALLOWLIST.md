@@ -30,7 +30,8 @@ Nenhum MIG pode ser iniciado sem:
 - Remoção dos 8 filtros PASS hardcoded (ADR-004)
 - Correção do key mismatch RSI (ADR-006)
 **Proibido neste MIG:** qualquer alteração fora de `indicator_engine/`  
-**Critério de aceite:** Nenhum `None` · Chaves canônicas · CI verde
+**Critério de aceite:** Nenhum `None` · Chaves canônicas · CI verde  
+**Status:** ✅ GATE-MIG1 FECHADO (DEC-GATE-MIG1 · 2026-06-24)
 
 ---
 
@@ -40,9 +41,11 @@ Nenhum MIG pode ser iniciado sem:
 **Bug associado:** BUG-002  
 **Proibição absoluta:** fallback sintético · dados artificiais · mock de mercado  
 **Escopo autorizado:**
-- Motor de dados reais e consistentes
-- Validação de integridade de dados
-**Critério de aceite:** Dados reais · Integridade confirmada · CI verde
+- `contracts/market_data_contract.py` — OHLCVBar, MarketDataSnapshot, DataProvider, MarketDataEngine
+- `market_data/` — SovereignMarketDataEngine, DataValidator, MockDataProvider, MT5DataProvider
+- `tests/test_market_data.py` — CA-01 a CA-08
+**Critério de aceite:** Dados reais · Integridade confirmada · CI verde · CA-01..CA-08  
+**Status:** ✅ GATE-MIG2 FECHADO (DEC-GATE-MIG2 · 2026-06-25)
 
 ---
 
@@ -144,7 +147,11 @@ Escopo autorizado exclusivo: `governance/`
 ```
 GATE-0 GOVERNANÇA (✅ FECHADO — DEC-18)
   ↓
-GATE-MIG1 → GATE-MIG2 → GATE-MIG3 → GATE-MIG4 → GATE-MIG5 → GATE-MIG6
+GATE-MIG1 (✅ FECHADO — DEC-GATE-MIG1 · 2026-06-24)
+  ↓
+GATE-MIG2 (✅ FECHADO — DEC-GATE-MIG2 · 2026-06-25)
+  ↓
+GATE-MIG3 → GATE-MIG4 → GATE-MIG5 → GATE-MIG6
   ↓
 GATE-DEMO (5 dias úteis)
   ↓
@@ -157,6 +164,6 @@ EXECUÇÃO REAL CONTROLADA
 
 ---
 
-*Última atualização: 2026-06-24*  
-*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18*  
-*Revisão: BUG-003 título corrigido conforme AIC-PARECER-MIG1-001 e Charter REV-1*
+*Última atualização: 2026-06-25*  
+*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18 · DEC-MIG2-001 · DEC-GATE-MIG2*  
+*Revisão: BUG-003 título corrigido conforme AIC-PARECER-MIG1-001 e Charter REV-1; MIG-1/MIG-2 gates fechados*
