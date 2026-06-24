@@ -105,7 +105,8 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 ### ETAPA 2 — MIG-2: Market Data Engine
 **Gate:** GATE-MIG2 | **Bug:** BUG-002  
 **Proibição absoluta:** fallback sintético · dados artificiais  
-**Critério:** Dados reais · Integridade confirmada · CI verde
+**Critério:** Dados reais · Integridade confirmada · CI verde · CA-01..CA-08  
+**Status:** 🟡 EM ANDAMENTO (DEC-MIG2-001 · 2026-06-25)
 
 ### ETAPA 3 — MIG-3: Position Manager
 **Gate:** GATE-MIG3  
