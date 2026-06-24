@@ -40,6 +40,7 @@
 | DEC-18 | CFO-RATIFICATION-002 — GATE-0 GOVERNANÇA FECHADO, ETAPA 0 CONCLUÍDA, MIG-1 Charter autorizado | ✅ RATIFICADO | 2026-06-24 | Conselho (CEO + CFO) |
 | DEC-19 | SIVR-0 aprovado como EXECUTION PROOF MIG-1 — 100/100 ciclos XAUUSD M1 MT5 demo real | ✅ APROVADO | 2026-06-24 | CFO + Conselho |
 | DEC-20 | TASK-0022 — MIG-2 CHARTER autorizado (somente planejamento; implementação bloqueada) | ✅ AUTORIZADO | 2026-06-24 | CFO + Conselho |
+| DEC-21 | Opção A adotada: sequência canônica MIG-1→MIG-2→...→MIG-6; SIVR-1 mantido como objetivo estratégico futuro sem implementação autorizada; nenhum componente execution/order/reconciliation antes de charter+gate aprovados | ✅ RATIFICADO | 2026-06-24 | Conselho |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
@@ -49,6 +50,12 @@
 | DEC-GATE0-2 | Launcher soberano: deployment/omega_run.py (fail-closed) | ✅ RATIFICADO | 2026-06-22 | ADR-009 · TASK-0012 |
 | DEC-GATE0-3 | Fluxo soberano: dados→indicadores→estratégia→risco→execução→telemetria | ✅ RATIFICADO | 2026-06-22 | ADR-010 · TASK-0013 |
 | DEC-GATE0-4 | Ambiente soberano: OMEGA_ENV ∈ {dev,test,demo,exec} (gating obrigatório) | ✅ RATIFICADO | 2026-06-22 | ADR-011 · TASK-0014 |
+
+### TYPE: GATE (Decisões de portão — GATE-MIG1)
+
+| ID | Decisão | Status | Data | Vínculo |
+|----|---------|--------|------|---------|
+| DEC-GATE-MIG1 | GATE-MIG1 FECHADO — MIG-1 Indicator Engine validado, SIVR-0 PASS, EXECUTION PROOF registrado | ✅ FECHADO | 2026-06-24 | DEC-19 · SIVR-0-CLOSURE-001 · TASK-0021 |
 
 ---
 

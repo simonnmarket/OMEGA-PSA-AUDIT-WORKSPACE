@@ -99,7 +99,8 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 
 ### ETAPA 1 — MIG-1: Indicator Engine
 **Gate:** GATE-MIG1 | **Bugs:** BUG-001 · BUG-003  
-**Critério:** Nenhum indicador `None` · Chaves canônicas · CI verde
+**Critério:** Nenhum indicador `None` · Chaves canônicas · CI verde  
+**Status:** ✅ FECHADO (DEC-GATE-MIG1 · SIVR-0-CLOSURE-001 · 2026-06-24)
 
 ### ETAPA 2 — MIG-2: Market Data Engine
 **Gate:** GATE-MIG2 | **Bug:** BUG-002  
