@@ -95,7 +95,7 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 **Gate:** GATE-0 GOVERNANÇA  
 **Tasks:** TASK-0018 · TASK-0019 · TASK-0020  
 **Entregáveis:** ADRs · Registries · SYNC_PROTOCOL.md · SYNC_LOG.md  
-**Status:** EM PROGRESSO
+**Status:** ✅ CONCLUÍDA (DEC-18 · CFO-RATIFICATION-002 · 2026-06-24)
 
 ### ETAPA 1 — MIG-1: Indicator Engine
 **Gate:** GATE-MIG1 | **Bugs:** BUG-001 · BUG-003  

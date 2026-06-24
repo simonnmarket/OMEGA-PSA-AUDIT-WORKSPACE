@@ -112,7 +112,7 @@ Nenhum MIG pode ser iniciado sem:
 |--------|----------------|-----|------|
 | BUG-001 | Indicadores None | MIG-1 | GATE-MIG1 |
 | BUG-002 | Dados sintéticos / mercado falso | MIG-2 | GATE-MIG2 |
-| BUG-003 | SL/TP fixos desconectados do sinal | MIG-1 | GATE-MIG1 |
+| BUG-003 | 8 Filtros PASS Hardcoded (remoção MIG-1, substituição MIG-5) | MIG-1 + MIG-5 | GATE-MIG1 / GATE-MIG5 |
 | BUG-004 | Múltiplos launchers / runtimes | MIG-6 | GATE-MIG6 |
 | BUG-005 | — | NÃO MIGRAR | FORENSE |
 | BUG-006 | Key mismatch RSI / Risk Engine | MIG-4 | GATE-MIG4 |
@@ -142,7 +142,7 @@ Escopo autorizado exclusivo: `governance/`
 ## SEQUÊNCIA DE GATES
 
 ```
-GATE-0 GOVERNANÇA (atual)
+GATE-0 GOVERNANÇA (✅ FECHADO — DEC-18)
   ↓
 GATE-MIG1 → GATE-MIG2 → GATE-MIG3 → GATE-MIG4 → GATE-MIG5 → GATE-MIG6
   ↓
@@ -157,5 +157,6 @@ EXECUÇÃO REAL CONTROLADA
 
 ---
 
-*Última atualização: 2026-06-23*  
-*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15*
+*Última atualização: 2026-06-24*  
+*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18*  
+*Revisão: BUG-003 título corrigido conforme AIC-PARECER-MIG1-001 e Charter REV-1*
