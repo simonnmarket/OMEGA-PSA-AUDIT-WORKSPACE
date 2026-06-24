@@ -106,11 +106,12 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 **Gate:** GATE-MIG2 | **Bug:** BUG-002  
 **Proibição absoluta:** fallback sintético · dados artificiais  
 **Critério:** Dados reais · Integridade confirmada · CI verde · CA-01..CA-08  
-**Status:** 🟡 EM ANDAMENTO (DEC-MIG2-001 · 2026-06-25)
+**Status:** ✅ FECHADO (DEC-GATE-MIG2 · GATE-MIG2-PARECER-PSA-001 · 2026-06-25)
 
 ### ETAPA 3 — MIG-3: Position Manager
 **Gate:** GATE-MIG3  
-**Critério:** Estados rastreáveis · Telemetria ativa · CI verde
+**Critério:** Estados rastreáveis · Telemetria ativa · CI verde  
+**Status:** 🔴 NÃO INICIADO — aguarda Charter autorizado pelo Conselho
 
 ### ETAPA 4 — MIG-4: Risk Engine
 **Gate:** GATE-MIG4 | **Bug:** BUG-006  

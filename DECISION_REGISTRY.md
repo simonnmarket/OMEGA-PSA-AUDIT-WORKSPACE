@@ -58,6 +58,12 @@
 |----|---------|--------|------|---------|
 | DEC-GATE-MIG1 | GATE-MIG1 FECHADO — MIG-1 Indicator Engine validado, SIVR-0 PASS, EXECUTION PROOF registrado | ✅ FECHADO | 2026-06-24 | DEC-19 · SIVR-0-CLOSURE-001 · TASK-0021 |
 
+### TYPE: GATE (Decisões de portão — GATE-MIG2)
+
+| ID | Decisão | Status | Data | Vínculo |
+|----|---------|--------|------|---------|
+| DEC-GATE-MIG2 | GATE-MIG2 FECHADO — MIG-2 Market Data Engine implementado, CA-01..CA-08 PASS, CI 35/35, anti-BUG-002 verificado | ✅ FECHADO | 2026-06-25 | DEC-MIG2-001 · GATE-MIG2-PARECER-PSA-001 · TASK-0022 |
+
 ---
 
 ## Tasks V6 Concluídas (Log de Execução)
