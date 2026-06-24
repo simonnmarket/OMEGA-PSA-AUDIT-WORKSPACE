@@ -82,7 +82,25 @@ PSA assume autoridade documental oficial. ETAPA 0 em fechamento.
 
 ---
 
-*Próxima entrada: SYNC-0003*
+---
+
+### SYNC-0003
+**Data:** 2026-06-24  
+**Task:** GATE-0 FECHAMENTO  
+**Branch:** `main` (OMEGA-PSA-AUDIT-WORKSPACE)  
+**PR:** N/A  
+**Status:** ✅ EXECUTADO  
+**Arquivos criados/atualizados:**
+- `CFO-RATIFICATION-002.md` *(ratificação oficial GATE-0 FECHADO)*
+- `DECISION_REGISTRY.md` *(+DEC-18)*
+- `SYNC_LOG.md` *(este registro)*
+**Autoridade:** CFO-RAT-20260624-002  
+**Notas:** GATE-0 GOVERNANÇA oficialmente FECHADO pelo Conselho. ETAPA 0 CONCLUÍDA.
+PSA autorizado a preparar TASK-0021 (MIG-1 Charter). Implementação bloqueada até aprovação.
+
+---
+
+*Próxima entrada: SYNC-0004*
 
 ---
 

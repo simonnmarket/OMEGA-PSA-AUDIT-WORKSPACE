@@ -37,6 +37,7 @@
 | DEC-15 | Ratificação do Plano Mestre (ADR-012) — Regra CFO-03 vigente | ✅ APROVADO | 2026-06-23 | CEO + CFO |
 | DEC-16 | CFO-RAT-20260623-03 — ADR-012 = Plano Mestre oficial, Modelo 6 MIGs ratificado, Mapeamento BUG↔MIG canônico | ✅ APROVADO | 2026-06-23 | CEO + CFO |
 | DEC-17 | CFO-RATIFICATION-001 — PSA integrado, Taskade removido, PSA = autoridade documental oficial | ✅ APROVADO | 2026-06-24 | CFO |
+| DEC-18 | CFO-RATIFICATION-002 — GATE-0 GOVERNANÇA FECHADO, ETAPA 0 CONCLUÍDA, MIG-1 Charter autorizado | ✅ RATIFICADO | 2026-06-24 | Conselho (CEO + CFO) |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
