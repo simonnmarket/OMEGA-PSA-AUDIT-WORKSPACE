@@ -25,7 +25,7 @@
 |----|---------|--------|------|---------|
 | DEC-V6-1 | Congelar V5.5 como OMEGA_V55_FROZEN (read-only) | ✅ APROVADO | 2026-06-21 | ADR-007 |
 | DEC-V6-2 | Criar repositório OMEGA-KERNEL-SOVEREIGN V6 (histórico limpo) | ✅ APROVADO | 2026-06-21 | ADR-007 |
-| DEC-V6-3..9 | Allow-list MIG-1..5, Taskade=autoridade, Proibir legacy, GATE-0, FASE 1.5, Proteção Git, Contratos antes código | ✅ APROVADO | 2026-06-21 | ADR-007 |
+| DEC-V6-3..9 | Allow-list MIG-1..6, PSA=autoridade documental, Proibir legacy, GATE-0, FASE 1.5, Proteção Git, Contratos antes código | ✅ APROVADO | 2026-06-21 | ADR-007 |
 
 ### TYPE: GOVERNANCE (Decisões de governança documental)
 
@@ -34,8 +34,9 @@
 | DEC-GOV-01 | Unicidade Documental Obrigatória — cada domínio = 1 projeto CANONICAL | ✅ APROVADO | 2026-06-21 | — |
 | DEC-GOV-02 | Separação Definitiva: Fluxo Ativo vs Evidência Selada (3 camadas) | ✅ APROVADO | 2026-06-22 | DEC-1, DEC-7/CFO-01, GATE-1, GATE-1.5, ADR-007 |
 | DEC-14 | Escopo Negativo Absoluto — NENHUM MIG AUTORIZADO até GATE-0 GOVERNANÇA fechado | ✅ APROVADO | 2026-06-23 | CFO |
-| DEC-15 | Ratificação do Plano Mestre (ADR-009) — Regra CFO-03 vigente | ✅ APROVADO | 2026-06-23 | CEO + CFO |
+| DEC-15 | Ratificação do Plano Mestre (ADR-012) — Regra CFO-03 vigente | ✅ APROVADO | 2026-06-23 | CEO + CFO |
 | DEC-16 | CFO-RAT-20260623-03 — ADR-012 = Plano Mestre oficial, Modelo 6 MIGs ratificado, Mapeamento BUG↔MIG canônico | ✅ APROVADO | 2026-06-23 | CEO + CFO |
+| DEC-17 | CFO-RATIFICATION-001 — PSA integrado, Taskade removido, PSA = autoridade documental oficial | ✅ APROVADO | 2026-06-24 | CFO |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
@@ -106,4 +107,21 @@
 
 ## Próximo Task Livre
 
-**TASK-0021** (conforme TASK-0019 e TASK-0020 já concluídas no KMI)
+**TASK-0021** (conforme TASK-0018, TASK-0019 e TASK-0020 já concluídas)
+
+---
+
+## DEC-17 — CFO-RATIFICATION-001: Integração Operacional PSA (2026-06-24)
+
+**TYPE:** GOVERNANCE | **STATUS:** ✅ APROVADO
+
+**Aprovação:** CFO ✅
+
+**Decisões ratificadas:**
+- PSA considerado operacionalmente integrado
+- Segregação PSA/AIC ratificada
+- OMEGA-PSA-AUDIT-WORKSPACE reconhecido como autoridade documental oficial
+- Taskade removido da governança ativa
+- PSA substitui Taskade em todos os artefatos futuros
+
+**Vínculo:** CFO-SYNC-001 · PSA-CONFIRMATION-001

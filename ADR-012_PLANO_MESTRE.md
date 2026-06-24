@@ -3,8 +3,9 @@
 **Status:** APROVADO — CEO + CFO  
 **Data:** 2026-06-23  
 **Decisores:** CEO + CFO — OMEGA Kernel Sovereign V6  
-**Origem:** CFO-DIR-20260623-02 · CFO-RAT-20260623-03  
+**Origem:** CFO-DIR-20260623-02 · CFO-RAT-20260623-03 · CFO-RATIFICATION-001  
 **Referência:** DEC-15  
+**Atualização:** 2026-06-24 — Taskade removido, PSA assume autoridade documental  
 **Supersede:** ADR-009 (VOID — ID realocado para evitar colisão)  
 **Nota:** ADR-009, ADR-010, ADR-011 reservados para uso futuro do Conselho.
 
@@ -35,9 +36,9 @@ A partir desta data, o projeto opera sob **execução sequencial de etapas e gat
 ```
 Conselho (CEO + CFO)
   ↓
-Taskade (Autoridade Documental)
+PSA (Autoridade Documental — OMEGA-PSA-AUDIT-WORKSPACE)
   ↓
-AIC (Execução Técnica)
+AIC (Execução Técnica — OMEGA-Kernel-Sovereign)
   ↓
 GitHub V6 (Fonte Oficial de Código)
   ↓
@@ -47,7 +48,7 @@ Operação Real
 ```
 
 **Regras imutáveis:**
-- Taskade é a fonte oficial de governança
+- PSA é a fonte oficial de governança documental
 - GitHub V6 é a fonte oficial de código
 - AIC executa — não decide
 - Conselho aprova — não executa
@@ -139,7 +140,7 @@ Capital reduzido · Monitoramento diário obrigatório
 ---
 
 ## Critérios de Parada Imediata
-- Divergência Taskade ↔ GitHub
+- Divergência PSA ↔ AIC
 - Perda de rastreabilidade
 - Múltiplos runtimes ou launchers
 - Indicadores inválidos em produção
@@ -153,5 +154,6 @@ MIG-1..6 aprovados · GATE-DEMO · GATE-SHADOW · GATE-REAL · Governança ínte
 ---
 
 ## Referências
-CFO-DIR-20260623-02 · CFO-RAT-20260623-03 · ADR-001..008 · DEC-15  
-GATE-0 · GATE-MIG1..6 · GATE-DEMO · GATE-SHADOW · GATE-REAL
+CFO-DIR-20260623-02 · CFO-RAT-20260623-03 · CFO-RATIFICATION-001 · ADR-001..008 · DEC-15  
+GATE-0 · GATE-MIG1..6 · GATE-DEMO · GATE-SHADOW · GATE-REAL  
+*Nota: Taskade removido da governança por CFO-RATIFICATION-001 (2026-06-24). PSA substitui em todos os artefatos.*

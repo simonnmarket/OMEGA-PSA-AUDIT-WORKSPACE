@@ -1,18 +1,19 @@
 # SYNC_PROTOCOL.md
 
 **Projeto:** OMEGA Kernel Sovereign V6  
-**Versão:** 1.0  
-**Data:** 2026-06-23  
-**Autoridade:** CFO-RAT-20260623-03 · ADR-012 · DEC-15  
-**Status:** APROVADO
+**Versão:** 2.0  
+**Data:** 2026-06-24  
+**Autoridade:** CFO-RAT-20260623-03 · CFO-RATIFICATION-001 · ADR-012 · DEC-15  
+**Status:** APROVADO — ATUALIZADO (Taskade removido)
 
 ---
 
 ## 1. OBJETIVO
 
 Definir o protocolo oficial e obrigatório de sincronização entre:
-- **Taskade** (Autoridade Documental)
-- **GitHub V6** (Fonte Oficial de Código)
+- **PSA** (Autoridade Documental — `OMEGA-PSA-AUDIT-WORKSPACE`)
+- **AIC** (Autoridade Técnica — `OMEGA-Kernel-Sovereign`)
+- **Conselho** (Autoridade de Aprovação)
 
 Toda sincronização deve ser rastreável, reversível e auditável.
 
@@ -21,14 +22,13 @@ Toda sincronização deve ser rastreável, reversível e auditável.
 ## 2. PRINCÍPIO FUNDAMENTAL
 
 ```
-Taskade = FONTE DA VERDADE DOCUMENTAL
-GitHub = FONTE DA VERDADE TÉCNICA
-AIC = EXECUTOR (nunca decide, apenas executa)
-Conselho = APROVADOR FINAL
+PSA (OMEGA-PSA-AUDIT-WORKSPACE) = FONTE DA VERDADE DOCUMENTAL
+AIC (OMEGA-Kernel-Sovereign) = FONTE DA VERDADE TÉCNICA
+Conselho (CEO + CFO) = APROVADOR FINAL
 ```
 
-Nenhuma decisão de governança é válida se não estiver em ambos os sistemas.  
-Nenhuma alteração técnica é válida se não houver ADR ou DEC correspondente.
+Nenhuma decisão de governança é válida se não estiver registrada pelo PSA.  
+Nenhuma alteração técnica é válida se não houver ADR ou DEC correspondente aprovado pelo Conselho.
 
 ---
 
@@ -37,14 +37,14 @@ Nenhuma alteração técnica é válida se não houver ADR ou DEC correspondente
 ```
 Conselho aprova decisão
   ↓
-EVE (Taskade) gera artefatos documentais
+PSA gera artefatos documentais (OMEGA-PSA-AUDIT-WORKSPACE)
   - ADR correspondente
   - DEC no DECISION_REGISTRY
   - Atualização dos registries (BUG, MIGRATION_ALLOWLIST)
   ↓
-EVE entrega pacote ao AIC via chat/documento
+PSA emite pacote SYNC-IN para AIC
   ↓
-AIC cria branch: TASK-XXXX-sync
+AIC cria branch: TASK-XXXX-sync (OMEGA-Kernel-Sovereign)
   ↓
 AIC aplica arquivos sob governance/ APENAS
   ↓
@@ -58,7 +58,7 @@ Conselho aprova merge
   ↓
 AIC realiza merge
   ↓
-EVE registra conclusão no KMI Taskade
+PSA registra conclusão no SYNC_LOG.md
   ↓
 Gate correspondente = FECHADO
 ```
@@ -132,7 +132,7 @@ Exemplos:
 
 ## 9. REGRAS DE CONFLITO
 
-Se houver conflito entre Taskade e GitHub:
+Se houver conflito entre PSA e AIC (documentação vs código):
 1. **Parar** — não fazer merge
 2. **Notificar** o Conselho imediatamente
 3. **Identificar** qual versão é a mais recente e aprovada
@@ -147,12 +147,13 @@ Constituem violação deste protocolo:
 - Merge sem checklist aprovado
 - Alteração de arquivos fora de `governance/` durante ETAPA 0
 - Commit sem ID rastreável (TASK-XXXX ou ADR-XXX ou DEC-XX)
-- Divergência entre Taskade e GitHub por mais de 24h
+- Divergência entre PSA e AIC por mais de 24h
 - MIG iniciado sem gate anterior fechado
 
 **Toda violação deve ser registrada como BUG no BUG_REGISTRY com status VIOLATION.**
 
 ---
 
-*Última atualização: 2026-06-23*  
-*Autoridade: CFO-RAT-20260623-03 · ADR-012*
+*Última atualização: 2026-06-24*  
+*Autoridade: CFO-RAT-20260623-03 · CFO-RATIFICATION-001 · ADR-012*  
+*Nota: Taskade removido da governança por decisão do Conselho (2026-06-24)*

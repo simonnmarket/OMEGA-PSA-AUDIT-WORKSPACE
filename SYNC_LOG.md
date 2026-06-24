@@ -61,8 +61,29 @@ ADR-009, ADR-010, ADR-011 reservados para uso futuro do Conselho.
 
 ---
 
-*Próxima entrada: SYNC-0002 — após merge do SYNC-0001 e abertura de TASK-0019/0020*
+---
+
+### SYNC-0002
+**Data:** 2026-06-24  
+**Task:** TASK-0018 + TASK-0020 (consolidação)  
+**Branch:** `main` (OMEGA-PSA-AUDIT-WORKSPACE)  
+**PR:** N/A — PSA é autoridade de escrita direta neste repositório  
+**Status:** ✅ EXECUTADO  
+**Arquivos atualizados:**
+- `SYNC_PROTOCOL.md` *(v2.0 — Taskade removido, PSA ↔ AIC)*
+- `ADR-012_PLANO_MESTRE.md` *(consolidado — Taskade → PSA)*
+- `DECISION_REGISTRY.md` *(DEC-17 adicionado)*
+- `SYNC_LOG.md` *(este registro)*
+- `PSA-CONFIRMATION-001.md` *(aceite formal do protocolo)*
+- `SYNC-IN-001-CFO-20260624.md` *(evidência do SYNC-IN recebido)*
+**Autoridade:** CFO-RATIFICATION-001 · CFO-SYNC-001  
+**Notas:** Consolidação pós-ratificação CFO. Taskade removido de todos os artefatos.
+PSA assume autoridade documental oficial. ETAPA 0 em fechamento.
 
 ---
 
-*Última atualização: 2026-06-23*
+*Próxima entrada: SYNC-0003*
+
+---
+
+*Última atualização: 2026-06-24*
