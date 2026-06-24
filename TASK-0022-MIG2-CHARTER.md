@@ -3,9 +3,9 @@
 **ID:** TASK-0022  
 **Data:** 2026-06-24  
 **Emitido por:** PSA  
-**Autorização:** DEC-20 · DEC-21 · Conselho  
-**Status:** 🟡 EM ELABORAÇÃO — somente planejamento  
-**Referências:** ADR-012 · GATE-MIG1 (fechado) · SIVR-1-DESIGN-001 (referência futura)
+**Autorização:** DEC-20 · DEC-21 · CEO-DIRECTIVE-021  
+**Status:** 🟡 ESTRUTURA PSA PRONTA — AIC aguardando instrução de início  
+**Referências:** ADR-012 · GATE-MIG1 (fechado) · SIVR-1-DESIGN-001 (referência futura) · CEO-DIRECTIVE-021
 
 ---
 
