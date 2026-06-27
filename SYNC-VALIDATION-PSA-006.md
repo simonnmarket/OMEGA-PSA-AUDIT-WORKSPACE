@@ -6,7 +6,7 @@
 **Data:** 2026-06-27  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** COUNCIL-DIRECTIVE-029 · OMEGA-CONSTITUTION-001 · COUNCIL-DIRECTIVE-028 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027  
-**Status:** ✅ VALIDADO — FASE 2 AUTORIZADA A INICIAR
+**Status:** ✅ VALIDADO — FASE 2 AUTORIZADA A INICIAR (liberada após resolução do CONFLICT-REGISTRY-001 pela Alternativa C)
 
 ---
 
@@ -59,7 +59,9 @@ As seguintes condições foram atendidas:
 
 ## 5. Parecer
 
-> **O Principal Solution Architect PSA declara que a COUNCIL-DIRECTIVE-029 está incorporada e que a FASE 2 (ARCHITECTURE MAP) está autorizada a iniciar em modo somente leitura, nos termos da COUNCIL-DIRECTIVE-029, CEO-DIRECTIVE-026 e da OMEGA-CONSTITUTION-001.**
+> **O Principal Solution Architect PSA declara que a COUNCIL-DIRECTIVE-029 está incorporada e que a FASE 2 (ARCHITECTURE MAP) está autorizada a iniciar em modo somente leitura, nos termos da COUNCIL-DIRECTIVE-029, COUNCIL-DIRECTIVE-030, CEO-DIRECTIVE-026 e da OMEGA-CONSTITUTION-001.**
+
+> **Nota de liberação:** este parecer foi inicialmente emitido antes da resolução do `CONFLICT-REGISTRY-001`. Após a ratificação da `COUNCIL-RESOLUTION-001`, a criação da `COUNCIL-DIRECTIVE-030` como autorização geral da ETAPA 3.5 e o arquivamento de `COUNCIL-DIRECTIVE-029-REVISAO-CEO`, a continuidade da FASE 2 está formalmente liberada.
 
 ---
 

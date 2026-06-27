@@ -6,7 +6,7 @@
 **Data:** 2026-06-27  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** COUNCIL-RESOLUTION-001 · OMEGA-CONSTITUTION-001 · CONFLICT-REGISTRY-001  
-**Status:** ✅ PARECER FAVORÁVEL — Incorporação pendente de ratificação do Conselho
+**Status:** ✅ RATIFICADO — COUNCIL-RESOLUTION-001 vigente; CONFLICT-REGISTRY-001 resolvido; COUNCIL-DIRECTIVE-030 autorizado
 
 ---
 
@@ -42,24 +42,28 @@ A `COUNCIL-RESOLUTION-001` é:
 
 ---
 
-## 4. Incorporação Proposta
+## 4. Incorporação Executada
 
-Após a ratificação do Conselho, recomenda-se:
+A ratificação do Conselho foi registrada pelo PSA com as seguintes ações:
 
-1. Atualizar `OMEGA-CONSTITUTION-001.md` para referenciar a `COUNCIL-RESOLUTION-001` como padrão documental obrigatório.
-2. Atualizar `DECISION_REGISTRY.md` para registrar `COUNCIL-RESOLUTION-001` como `✅ RATIFICADA`.
-3. Atualizar `ADR-012_PLANO_MESTRE.md` para mencionar a Resolução.
-4. Resolver `CONFLICT-REGISTRY-001` aplicando a Regra de Versionamento.
+1. `OMEGA-CONSTITUTION-001.md` atualizada para referenciar a `COUNCIL-RESOLUTION-001` e adotar a hierarquia documental oficial.
+2. `DECISION_REGISTRY.md` atualizado com `COUNCIL-RESOLUTION-001` como `✅ RATIFICADA`.
+3. `ADR-012_PLANO_MESTRE.md` atualizado com as referências à Resolução e à `COUNCIL-DIRECTIVE-030`.
+4. `CONFLICT-REGISTRY-001` resolvido pela Alternativa C:
+   - `COUNCIL-DIRECTIVE-029` mantida como metodologia da FASE 2;
+   - `COUNCIL-DIRECTIVE-030` criada como autorização geral da ETAPA 3.5;
+   - `COUNCIL-DIRECTIVE-029-REVISAO-CEO` arquivada como histórico não vigente.
+5. `SYNC-VALIDATION-PSA-006` liberado para continuidade.
 
 ---
 
 ## 5. Parecer
 
-> **O Principal Solution Architect PSA emite parecer FAVORÁVEL à ratificação da COUNCIL-RESOLUTION-001.**
+> **O Principal Solution Architect PSA declara que a COUNCIL-RESOLUTION-001 está ratificada, incorporada à governança oficial do Programa e que a COUNCIL-DIRECTIVE-030 autoriza a execução geral da ETAPA 3.5, nos termos da Constituição e da Resolução.**
 
-A Resolução deve ser incorporada à governança oficial do Programa para garantir clareza, singularidade e rastreabilidade de todos os documentos institucionais futuros.
+A Resolução garante clareza, singularidade e rastreabilidade de todos os documentos institucionais futuros.
 
-Após o recebimento do `CSO-SCI-PARECER-001`, o PSA acolheu as correções recomendadas e gerou a versão revisada `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`. O parecer favorável permanece válido sobre a versão revisada.
+Após o recebimento do `CSO-SCI-PARECER-001`, o PSA acolheu as correções recomendadas e gerou a versão revisada `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`. O parecer favorável permanece válido sobre a versão ratificada.
 
 ---
 

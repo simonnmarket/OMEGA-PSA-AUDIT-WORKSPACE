@@ -5,7 +5,9 @@
 **ID:** CONFLICT-REGISTRY-001  
 **Data:** 2026-06-27  
 **Emissor:** Principal Solution Architect PSA  
-**Status:** ⚠️ PENDENTE DE DELIBERAÇÃO DO CONSELHO  
+**Status:** ✅ RESOLVIDO  
+**Data de resolução:** 2026-06-27  
+**Deliberação:** CEO / Conselho OMEGA  
 **Tipo:** Conflito de ID e escopo entre versões de diretiva
 
 ---
@@ -15,7 +17,7 @@
 | Documento | Versão / Título | Status no PSA workspace |
 |-----------|-----------------|-------------------------|
 | `COUNCIL-DIRECTIVE-029.md` | Metodologia obrigatória para FASE 2 — ARCHITECTURE MAP | ✅ VIGENTE (registrado no `DECISION_REGISTRY`) |
-| `COUNCIL-DIRECTIVE-029-REVISAO-CEO.md` | Autorização para execução da ETAPA 3.5 — Inventário Institucional do Patrimônio Técnico | ⏳ Recebida para análise; não incorporada |
+| `COUNCIL-DIRECTIVE-029-REVISAO-CEO.md` | Rascunho de autorização para execução da ETAPA 3.5 | 🗄️ ARCHIVED — SUPERSEDED BY COUNCIL-DIRECTIVE-030 |
 
 ---
 
@@ -50,9 +52,20 @@ Adotar a **Alternativa C** descrita no `PSA-ANALYSIS-COUNCIL-DIRECTIVE-029-REVIS
 - Alinhar sequência de fases com a `COUNCIL-DIRECTIVE-028`.
 - Uniformizar taxonomia da Matriz de Paridade Funcional.
 
-## 5. Atualização institucional
+## 5. Resolução do Conflito (Alternativa C)
 
-A `COUNCIL-RESOLUTION-001` (proposta) estabelece a **Regra de Versionamento** que resolve a raiz deste conflito: IDs institucionais não podem ser reutilizados para conteúdos diferentes. Se ratificada, a Resolução deverá ser aplicada para formalizar a separação entre `COUNCIL-DIRECTIVE-029` (metodologia FASE 2) e um novo documento de autorização geral.
+Aplicada deliberação do CEO / Conselho OMEGA em 2026-06-27:
+
+1. **Manter** `COUNCIL-DIRECTIVE-029` como metodologia da FASE 2 (`ARCHITECTURE MAP`).
+2. **Criar** `COUNCIL-DIRECTIVE-030` como autorização geral da ETAPA 3.5.
+3. **Arquivar** `COUNCIL-DIRECTIVE-029-REVISAO-CEO` como histórico não vigente, substituído por `COUNCIL-DIRECTIVE-030`.
+4. **Ratificar** `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO` como padrão documental oficial.
+5. **Atualizar** `DECISION_REGISTRY`, `OMEGA-CONSTITUTION-001` e `ADR-012_PLANO_MESTRE` para refletir a nova estrutura.
+6. **Liberar** a continuidade de `SYNC-VALIDATION-PSA-006` após o encerramento formal deste registro.
+
+## 6. Atualização institucional
+
+A `COUNCIL-RESOLUTION-001` ratificada estabelece a **Regra de Versionamento** que resolve a raiz deste conflito: IDs institucionais não podem ser reutilizados para conteúdos diferentes.
 
 O `CSO-SCI-PARECER-001` emitiu parecer favorável à ratificação com ajustes de redação. O PSA acolheu as correções e gerou a versão revisada `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`, registradas no `PSA-REVISION-COUNCIL-RESOLUTION-001.md`.
 
@@ -64,7 +77,7 @@ O `CSO-SCI-PARECER-001` emitiu parecer favorável à ratificação com ajustes d
 
 ---
 
-## 6. Referências
+## 7. Referências
 
 - `PSA-ANALYSIS-COUNCIL-DIRECTIVE-029-REVISAO-CEO.md`
 - `COUNCIL-DIRECTIVE-029.md`

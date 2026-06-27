@@ -1,11 +1,22 @@
 # COUNCIL-DIRECTIVE-029 — REVISÃO CEO
 
-**ID:** COUNCIL-DIRECTIVE-029  
+**ID:** COUNCIL-DIRECTIVE-029 (conflito de ID — NÃO VIGENTE)  
 **Emitido por:** Conselho / CEO  
-**Status:** VIGENTE APÓS PUBLICAÇÃO  
-**Hierarquia:** Constituição do Programa → ADR-012 → COUNCIL-DIRECTIVE-029  
-**Título:** Autorização para Execução da ETAPA 3.5 — Inventário Institucional do Patrimônio Técnico  
-**Data de recebimento:** 2026-06-27
+**Status:** 🗄️ ARCHIVED — HISTORICAL REFERENCE ONLY — DO NOT EXECUTE  
+**Hierarquia:** HISTÓRICO — NÃO APLICÁVEL  
+**Título:** Rascunho de Autorização para Execução da ETAPA 3.5 — SUBSTITUÍDO  
+**Data de recebimento:** 2026-06-27  
+**Data de arquivamento:** 2026-06-27  
+**Substituído por:** COUNCIL-DIRECTIVE-030  
+**Motivo do arquivamento:** Reutilização indevida do ID COUNCIL-DIRECTIVE-029 para conteúdo distinto da versão vigente. Resolvido pela Alternativa C do CONFLICT-REGISTRY-001 e pela Regra de Versionamento da COUNCIL-RESOLUTION-001.
+
+> ⚠️ **OBSOLETE — SUPERSEDED BY COUNCIL-DIRECTIVE-030**
+>
+> Este documento é mantido apenas como registro histórico. Não possui efeito normativo.
+>
+> A autorização geral da ETAPA 3.5 está em `COUNCIL-DIRECTIVE-030.md`.
+> A metodologia da FASE 2 permanece em `COUNCIL-DIRECTIVE-029.md` (vigente).
+
 
 ---
 

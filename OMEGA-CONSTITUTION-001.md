@@ -8,7 +8,7 @@
 **Responsável pela incorporação:** Principal Solution Architect PSA  
 **Status:** ✅ VIGENTE  
 **Classificação:** Documento de maior hierarquia do Programa  
-**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-DIRECTIVE-028 · COUNCIL-DIRECTIVE-029 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
+**Referências:** COUNCIL-RESOLUTION-001 · COUNCIL-DIRECTIVE-025 · COUNCIL-DIRECTIVE-028 · COUNCIL-DIRECTIVE-029 · COUNCIL-DIRECTIVE-030 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
 
 ---
 
@@ -123,14 +123,20 @@ Fica vedada a criação de novos componentes sem inventário prévio do comporta
 
 ## 5. Hierarquia Documental
 
-A governança do Programa obedece a seguinte ordem de autoridade:
+A governança do Programa obedece à seguinte ordem de autoridade, conforme detalhado na `COUNCIL-RESOLUTION-001`:
 
-1. **Constituição do Programa** (OMEGA-CONSTITUTION-001)
-2. **ADRs** — decisões arquiteturais de largo alcance
-3. **Decisões do Conselho** — DEC, CEO-DIRECTIVE, COUNCIL-DIRECTIVE
-4. **Charters** — mandatos de cada etapa (MIG)
-5. **Tasks** — trabalhos específicos
-6. **Registros Operacionais** — relatórios, validações, logs
+1. **Constituição do Programa** (OMEGA-CONSTITUTION-001) — princípios permanentes.
+2. **Resoluções do Conselho** — padrões de governança, deliberação e documentação.
+3. **ADRs** — decisões arquiteturais de largo alcance.
+4. **Diretivas do Conselho** — autorizações executivas e metodologias específicas.
+5. **Decisões Registradas** — registro canônico de deliberações (Decision Registry).
+6. **Charters** — mandatos de cada etapa (MIG).
+7. **Tasks** — trabalhos específicos.
+8. **Pareceres** — validações técnicas e institucionais.
+9. **Relatórios** — registros de resultados e execução.
+10. **Logs de Sincronização** — evidências operacionais.
+
+Nenhum documento de nível inferior poderá modificar ou contrariar um documento de nível superior. A `COUNCIL-RESOLUTION-001` regula a elaboração, aprovação, versionamento e execução de todos os documentos institucionais.
 
 ---
 

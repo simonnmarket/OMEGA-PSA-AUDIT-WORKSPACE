@@ -5,9 +5,9 @@
 **Status:** EM ANDAMENTO  
 **Owner:** Principal Solution Architect PSA  
 **Prazo inicial:** 14 dias (2026-07-11)  
-**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-SYNC-REQUEST-002 · CEO-DIRECTIVE-027 · COUNCIL-DIRECTIVE-028
+**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-RESOLUTION-001 · COUNCIL-SYNC-REQUEST-002 · CEO-DIRECTIVE-027 · COUNCIL-DIRECTIVE-028 · COUNCIL-DIRECTIVE-029 · COUNCIL-DIRECTIVE-030
 
-> **Nota:** A especificação oficial da ETAPA 3.5 está em `CEO-DIRECTIVE-027.md`. A metodologia de fases (0-7) está em `COUNCIL-DIRECTIVE-028.md`. Este documento permanece como resumo executivo e plano de trabalho.
+> **Nota:** A especificação oficial da ETAPA 3.5 está em `CEO-DIRECTIVE-027.md`. A metodologia de fases (0-7) está em `COUNCIL-DIRECTIVE-028.md`. A autorização geral para execução está em `COUNCIL-DIRECTIVE-030.md`. A metodologia da FASE 2 está em `COUNCIL-DIRECTIVE-029.md`. O padrão documental está em `COUNCIL-RESOLUTION-001.md`. Este documento permanece como resumo executivo e plano de trabalho.
 
 ---
 
@@ -65,12 +65,13 @@ A análise abrangerá todo o OMEGA_OS_Kernel, incluindo:
 ### FASE 2 — Arquitetura Estrutural / ARCHITECTURE MAP 🚀 INICIADA
 
 - Identificar domínios, subdomínios, engines, pipelines, packages, agentes, serviços, camadas e interfaces.
+- Autorização geral da ETAPA 3.5: `COUNCIL-DIRECTIVE-030`.
 - Metodologia obrigatória: `COUNCIL-DIRECTIVE-029` (descrição estritamente descritiva, evidência primária, neutralidade técnica).
 - **Entregáveis obrigatórios:**
   - `ARCHITECTURE_MAP.md`
   - `ARCHITECTURE_INDEX.md`
   - `EVIDENCE_INDEX.md`
-- Início validado por `SYNC-VALIDATION-PSA-006`.
+- Início validado por `SYNC-VALIDATION-PSA-006` (liberado após resolução do `CONFLICT-REGISTRY-001`).
 
 ### FASE 3 — Mapa de Dependências
 
