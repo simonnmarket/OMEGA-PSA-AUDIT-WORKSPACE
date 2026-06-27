@@ -5,7 +5,9 @@
 **Status:** EM ANDAMENTO  
 **Owner:** Principal Solution Architect PSA  
 **Prazo inicial:** 14 dias (2026-07-11)  
-**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-SYNC-REQUEST-002
+**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-SYNC-REQUEST-002 · CEO-DIRECTIVE-027
+
+> **Nota:** A especificação oficial e detalhada da ETAPA 3.5 está em `CEO-DIRECTIVE-027.md`. Este documento permanece como resumo executivo e plano de trabalho.
 
 ---
 

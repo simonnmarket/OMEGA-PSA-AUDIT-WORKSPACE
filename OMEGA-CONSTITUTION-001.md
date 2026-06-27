@@ -8,7 +8,7 @@
 **Responsável pela incorporação:** Principal Solution Architect PSA  
 **Status:** ✅ VIGENTE  
 **Classificação:** Documento de maior hierarquia do Programa  
-**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026
+**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
 
 ---
 
@@ -60,6 +60,14 @@ Cada componente deverá passar por:
 - O `OMEGA_OS_Kernel` é **Patrimônio Técnico Congelado** — somente leitura, sem modificações.
 - Toda comunicação entre PSA e AIC ocorre mediante fluxo institucional aprovado pelo Conselho.
 - Detalhamento operacional em CEO-DIRECTIVE-026.
+
+### 3.7 Gate Arquitetural não é evidência de equivalência funcional
+
+Aprovação no **Gate Arquitetural** comprova apenas que um componente possui contratos, interfaces, testes e organização compatíveis com a arquitetura soberana.
+
+A **equivalência funcional** somente poderá ser declarada após comparação documentada com o legado, utilizando a **Matriz de Paridade Funcional** e evidências verificáveis.
+
+Nenhum Gate Arquitetural poderá ser interpretado como comprovação de comportamento equivalente ao OMEGA_OS_Kernel.
 
 ---
 
