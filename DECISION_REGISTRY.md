@@ -45,6 +45,8 @@
 | DEC-MIG3-001 | Charter MIG-3 aprovado; implementação Position Manager autorizada ao AIC; CA-01..CA-08 obrigatórios; order_send terminantemente proibido em MIG-3 | ✅ APROVADO | 2026-06-27 | Conselho + CEO |
 | CEO-DIRECTIVE-023A | Reforço permanente das fronteiras operacionais PSA × AIC; PSA proibido de commitar no Kernel; AIC proibido de alterar documentos do PSA | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
 | CEO-DIRECTIVE-024 | Política oficial permanente de isolamento de workspaces PSA × AIC; fluxo obrigatório Conselho→PSA→AIC→SYNC-OUT→PSA validação→Gate | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
+| COUNCIL-SYNC-REQUEST-001 | Solicitação do Conselho ao PSA para validar SYNC-OUT AIC e convergência antes de TASK-0024 | ✅ ATENDIDA | 2026-06-27 | CEO / Conselho |
+| SYNC-VALIDATION-PSA-001 | Parecer PSA: estado do Kernel converge com SYNC-OUT AIC; incidente TOPOLOGY-MIG3 encerrado; TASK-0024 desbloqueada | ✅ VALIDADO | 2026-06-27 | PSA |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
