@@ -110,8 +110,8 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 
 ### ETAPA 3 — MIG-3: Position Manager
 **Gate:** GATE-MIG3  
-**Critério:** Estados rastreáveis · Telemetria ativa · CI verde  
-**Status:** 🔴 NÃO INICIADO — aguarda Charter autorizado pelo Conselho
+**Critério:** Estados rastreáveis · Telemetria ativa · CI verde · CA-01..CA-08  
+**Status:** � EM ANDAMENTO (DEC-MIG3-001 · 2026-06-27)
 
 ### ETAPA 4 — MIG-4: Risk Engine
 **Gate:** GATE-MIG4 | **Bug:** BUG-006  

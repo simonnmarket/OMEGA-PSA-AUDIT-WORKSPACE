@@ -42,6 +42,7 @@
 | DEC-20 | TASK-0022 — MIG-2 CHARTER autorizado (somente planejamento; implementação bloqueada) | ✅ AUTORIZADO | 2026-06-24 | CFO + Conselho |
 | DEC-21 | Opção A adotada: sequência canônica MIG-1→MIG-2→...→MIG-6; SIVR-1 mantido como objetivo estratégico futuro sem implementação autorizada; nenhum componente execution/order/reconciliation antes de charter+gate aprovados | ✅ RATIFICADO | 2026-06-24 | Conselho |
 | DEC-MIG2-001 | Charter MIG-2 aprovado; implementação Market Data Engine autorizada ao AIC; GATE-MIG2 aberto; CA-01..CA-08 como critérios oficiais | ✅ APROVADO | 2026-06-25 | Conselho + CEO + CFO |
+| DEC-MIG3-001 | Charter MIG-3 aprovado; implementação Position Manager autorizada ao AIC; CA-01..CA-08 obrigatórios; order_send terminantemente proibido em MIG-3 | ✅ APROVADO | 2026-06-27 | Conselho + CEO |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
