@@ -50,9 +50,16 @@ Adotar a **Alternativa C** descrita no `PSA-ANALYSIS-COUNCIL-DIRECTIVE-029-REVIS
 - Alinhar sequência de fases com a `COUNCIL-DIRECTIVE-028`.
 - Uniformizar taxonomia da Matriz de Paridade Funcional.
 
+## 5. Atualização institucional
+
+A `COUNCIL-RESOLUTION-001` (proposta) estabelece a **Regra de Versionamento** que resolve a raiz deste conflito: IDs institucionais não podem ser reutilizados para conteúdos diferentes. Se ratificada, a Resolução deverá ser aplicada para formalizar a separação entre `COUNCIL-DIRECTIVE-029` (metodologia FASE 2) e um novo documento de autorização geral.
+
+- Parecer PSA: `SYNC-VALIDATION-PSA-007` (favorável à ratificação).
+- Análise PSA: `PSA-ANALYSIS-COUNCIL-RESOLUTION-001.md`.
+
 ---
 
-## 5. Referências
+## 6. Referências
 
 - `PSA-ANALYSIS-COUNCIL-DIRECTIVE-029-REVISAO-CEO.md`
 - `COUNCIL-DIRECTIVE-029.md`
