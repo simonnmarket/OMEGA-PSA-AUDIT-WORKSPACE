@@ -151,13 +151,19 @@ Escopo autorizado exclusivo: `governance/`
 ```
 GATE-0 GOVERNANÇA (✅ FECHADO — DEC-18)
   ↓
-GATE-MIG1 (✅ FECHADO — DEC-GATE-MIG1 · 2026-06-24)
+GATE-MIG1 (✅ FECHADO ARQUITETURAL — DEC-GATE-MIG1 · 2026-06-24)
   ↓
-GATE-MIG2 (✅ FECHADO — DEC-GATE-MIG2 · 2026-06-25)
+GATE-MIG2 (✅ FECHADO ARQUITETURAL — DEC-GATE-MIG2 · 2026-06-25)
   ↓
-GATE-MIG3 (✅ FECHADO — DEC-GATE-MIG3-001 · 2026-06-27)
+GATE-MIG3 (✅ FECHADO ARQUITETURAL — DEC-GATE-MIG3-001 · 2026-06-27)
   ↓
-GATE-MIG4 → GATE-MIG5 → GATE-MIG6
+ETAPA 3.5 — INVENTÁRIO E MATRIZ DE PARIDADE FUNCIONAL (🟡 EM ANDAMENTO — COUNCIL-DIRECTIVE-025)
+  ↓
+GATE-MIG4 (⏸️ SUSPENSO — COUNCIL-DIRECTIVE-025)
+  ↓
+GATE-MIG5 (⏸️ SUSPENSO — COUNCIL-DIRECTIVE-025)
+  ↓
+GATE-MIG6 (⏸️ SUSPENSO — COUNCIL-DIRECTIVE-025)
   ↓
 GATE-DEMO (5 dias úteis)
   ↓
@@ -168,8 +174,12 @@ GATE-REAL (ADR específico obrigatório)
 EXECUÇÃO REAL CONTROLADA
 ```
 
+**Nota:** A partir de COUNCIL-DIRECTIVE-025, cada Gate-MIG possui dupla dimensão:
+- **Gate Arquitetural:** valida estrutura, contratos, CI, determinismo.
+- **Gate Funcional:** valida paridade de comportamento com OMEGA_OS_Kernel.
+
 ---
 
 *Última atualização: 2026-06-27*  
-*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18 · DEC-MIG2-001 · DEC-GATE-MIG2 · DEC-MIG3-001 · DEC-GATE-MIG3-001*  
-*Revisão: MIG-1/MIG-2/MIG-3 gates fechados; escopo MIG-3 detalhado; CA-01..CA-08 ratificados*
+*Autoridade: OMEGA-CONSTITUTION-001 · COUNCIL-DIRECTIVE-025 · DEC-RESET-001 · CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18 · DEC-MIG2-001 · DEC-GATE-MIG2 · DEC-MIG3-001 · DEC-GATE-MIG3-001*  
+*Revisão: MIG-1/MIG-2/MIG-3 reclassificados como Gates Arquiteturais; ETAPA 3.5 inserida; MIG-4/5/6 suspensos; Constituição vigente*

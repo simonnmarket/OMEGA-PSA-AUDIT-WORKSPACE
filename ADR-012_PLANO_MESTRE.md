@@ -6,6 +6,7 @@
 **Origem:** CFO-DIR-20260623-02 · CFO-RAT-20260623-03 · CFO-RATIFICATION-001  
 **Referência:** DEC-15  
 **Atualização:** 2026-06-24 — Taskade removido, PSA assume autoridade documental  
+**Atualização:** 2026-06-27 — COUNCIL-DIRECTIVE-025: OMEGA-CONSTITUTION-001 institucionalizada; ETAPA 3.5 inserida; MIG-1/2/3 reclassificados como Gates Arquiteturais; MIG-4/5/6 suspensos
 **Supersede:** ADR-009 (VOID — ID realocado para evitar colisão)  
 **Nota:** ADR-009, ADR-010, ADR-011 reservados para uso futuro do Conselho.
 
@@ -109,22 +110,31 @@ Qualquer nova descoberta → **BACKLOG** → analisada somente após etapa ativa
 **Status:** ✅ FECHADO (DEC-GATE-MIG2 · GATE-MIG2-PARECER-PSA-001 · 2026-06-25)
 
 ### ETAPA 3 — MIG-3: Position Manager
-**Gate:** GATE-MIG3  
+**Gate:** GATE-MIG3 (ARQUITETURAL)  
 **Critério:** Estados rastreáveis · Telemetria ativa · CI verde · CA-01..CA-08  
-**Status:** ✅ FECHADO (DEC-GATE-MIG3-001 · 2026-06-27)
+**Status:** ✅ FECHADO ARQUITETURAL (DEC-GATE-MIG3-001 · COUNCIL-DIRECTIVE-025 · 2026-06-27)
+
+### ETAPA 3.5 — Inventário e Matriz de Paridade Funcional
+**Gate:** Nenhum (etapa institucional)  
+**Entregáveis:** OMEGA-CONSTITUTION-001 · ETAPA-3.5-PLANO · METODOLOGIA-PARIDADE-FUNCIONAL · MIGRATION-TRACEABILITY-MATRIX · CRITERIOS-GATE-FUNCIONAL  
+**Critério:** Inventário completo do OMEGA_OS_Kernel · Matriz de rastreabilidade aprovada · Critérios de paridade definidos  
+**Status:** 🟡 EM ANDAMENTO (COUNCIL-DIRECTIVE-025 · prazo: 14 dias)
 
 ### ETAPA 4 — MIG-4: Risk Engine
 **Gate:** GATE-MIG4 | **Bug:** BUG-006  
-**Critério:** SL/TP derivam do sinal · Zero parâmetros fixos desconectados · CI verde
+**Critério:** SL/TP derivam do sinal · Zero parâmetros fixos desconectados · CI verde · Gate Funcional futuro  
+**Status:** ⏸️ SUSPENSO até aprovação da ETAPA 3.5 (COUNCIL-DIRECTIVE-025)
 
 ### ETAPA 5 — MIG-5: Signal Validation Layer
 **Gate:** GATE-MIG5 | **Escopo:** Arquitetural  
-**Critério:** Validação desacoplada · Telemetria completa · CI verde
+**Critério:** Validação desacoplada · Telemetria completa · CI verde · Gate Funcional futuro  
+**Status:** ⏸️ SUSPENSO até aprovação da ETAPA 3.5 (COUNCIL-DIRECTIVE-025)
 
 ### ETAPA 6 — MIG-6: Execution Engine Sovereign
 **Gate:** GATE-MIG6 | **Bugs:** BUG-004 · BUG-009 · BUG-010  
 **Componentes:** Order Manager · Trade Mode Validation · Broker Connector · Environment Gating  
-**Critério:** Caminho único de execução · DEMO/REAL segregados · CI verde
+**Critério:** Caminho único de execução · DEMO/REAL segregados · CI verde · Gate Funcional futuro  
+**Status:** ⏸️ SUSPENSO até aprovação da ETAPA 3.5 (COUNCIL-DIRECTIVE-025)
 
 ### ETAPA 7 — DEMO
 **Gate:** GATE-DEMO | **Duração mínima:** 5 dias úteis  

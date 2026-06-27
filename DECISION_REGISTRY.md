@@ -48,6 +48,11 @@
 | COUNCIL-SYNC-REQUEST-001 | Solicitação do Conselho ao PSA para validar SYNC-OUT AIC e convergência antes de TASK-0024 | ✅ ATENDIDA | 2026-06-27 | CEO / Conselho |
 | SYNC-VALIDATION-PSA-001 | Parecer PSA: estado do Kernel converge com SYNC-OUT AIC; incidente TOPOLOGY-MIG3 encerrado; TASK-0024 desbloqueada | ✅ VALIDADO | 2026-06-27 | PSA |
 | TASK-0023-V6-VALIDATION-001 | Validação integrada do baseline V6 (MIG-1+MIG-2+MIG-3); CA-V6-01..CA-V6-06 PASS; baseline READY FOR MIG-4 | ✅ VALIDADO | 2026-06-27 | PSA + AIC |
+| DEC-RESET-001 | Reinicialização estratégica do programa: arquitetura válida, mas paridade funcional não demonstrada; mudança de "reimplementar" para "preservar comportamento" | ✅ VIGENTE | 2026-06-27 | Conselho / CEO |
+| COUNCIL-DIRECTIVE-025 | Reorganização da governança constitucional: criação da Constituição do Programa, ETAPA 3.5, suspensão de MIG-4/5/6 e TASK-0024 | ✅ VIGENTE | 2026-06-27 | Conselho / CEO |
+| OMEGA-CONSTITUTION-001 | Constituição Oficial do Programa — documento de maior hierarquia | ✅ VIGENTE | 2026-06-27 | Conselho / CEO |
+| SUSP-001 | Suspensão temporária de TASK-0024, MIG-4, MIG-5 e MIG-6 até conclusão da ETAPA 3.5 | ⏸️ SUSPENSO | 2026-06-27 | Conselho / CEO |
+| AIC-STANDBY-001 | AIC em STANDBY; sem autorização para novos módulos, implementações, contratos ou funcionalidades | ⏸️ STANDBY | 2026-06-27 | Conselho / CEO |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
@@ -62,19 +67,27 @@
 
 | ID | Decisão | Status | Data | Vínculo |
 |----|---------|--------|------|---------|
-| DEC-GATE-MIG1 | GATE-MIG1 FECHADO — MIG-1 Indicator Engine validado, SIVR-0 PASS, EXECUTION PROOF registrado | ✅ FECHADO | 2026-06-24 | DEC-19 · SIVR-0-CLOSURE-001 · TASK-0021 |
+| DEC-GATE-MIG1 | GATE-MIG1 FECHADO (ARQUITETURAL) — MIG-1 Indicator Engine validado, SIVR-0 PASS, EXECUTION PROOF registrado; Gate Funcional pendente | ✅ FECHADO ARQUITETURAL | 2026-06-24 | DEC-19 · SIVR-0-CLOSURE-001 · TASK-0021 · COUNCIL-DIRECTIVE-025 |
 
 ### TYPE: GATE (Decisões de portão — GATE-MIG2)
 
 | ID | Decisão | Status | Data | Vínculo |
 |----|---------|--------|------|---------|
-| DEC-GATE-MIG2 | GATE-MIG2 FECHADO — MIG-2 Market Data Engine implementado, CA-01..CA-08 PASS, CI 35/35, anti-BUG-002 verificado | ✅ FECHADO | 2026-06-25 | DEC-MIG2-001 · GATE-MIG2-PARECER-PSA-001 · TASK-0022 |
+| DEC-GATE-MIG2 | GATE-MIG2 FECHADO (ARQUITETURAL) — MIG-2 Market Data Engine implementado, CA-01..CA-08 PASS, CI 35/35, anti-BUG-002 verificado; Gate Funcional pendente | ✅ FECHADO ARQUITETURAL | 2026-06-25 | DEC-MIG2-001 · GATE-MIG2-PARECER-PSA-001 · TASK-0022 · COUNCIL-DIRECTIVE-025 |
 
 ### TYPE: GATE (Decisões de portão — GATE-MIG3)
 
 | ID | Decisão | Status | Data | Vínculo |
 |----|---------|--------|------|---------|
-| DEC-GATE-MIG3-001 | GATE-MIG3 FECHADO — MIG-3 Position Manager implementado, CA-01..CA-08 PASS, CI 45/45, zero order_send, sem regressões | ✅ FECHADO | 2026-06-27 | DEC-MIG3-001 · GATE-MIG3-PARECER-PSA-001 · TASK-0023 |
+| DEC-GATE-MIG3-001 | GATE-MIG3 FECHADO (ARQUITETURAL) — MIG-3 Position Manager implementado, CA-01..CA-08 PASS, CI 45/45, zero order_send, sem regressões; Gate Funcional pendente | ✅ FECHADO ARQUITETURAL | 2026-06-27 | DEC-MIG3-001 · GATE-MIG3-PARECER-PSA-001 · TASK-0023 · COUNCIL-DIRECTIVE-025 |
+
+### TYPE: SUSPENSION (Gates e tasks suspensos)
+
+| ID | Decisão | Status | Data | Vínculo |
+|----|---------|--------|------|---------|
+| GATE-MIG4-SUSP | GATE-MIG4 suspenso até conclusão da ETAPA 3.5 e aprovação da Constituição | ⏸️ SUSPENSO | 2026-06-27 | COUNCIL-DIRECTIVE-025 |
+| GATE-MIG5-SUSP | GATE-MIG5 suspenso até conclusão da ETAPA 3.5 | ⏸️ SUSPENSO | 2026-06-27 | COUNCIL-DIRECTIVE-025 |
+| GATE-MIG6-SUSP | GATE-MIG6 suspenso até conclusão da ETAPA 3.5 | ⏸️ SUSPENSO | 2026-06-27 | COUNCIL-DIRECTIVE-025 |
 
 ---
 
