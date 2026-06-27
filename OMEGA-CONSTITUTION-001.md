@@ -8,7 +8,7 @@
 **Responsável pela incorporação:** Principal Solution Architect PSA  
 **Status:** ✅ VIGENTE  
 **Classificação:** Documento de maior hierarquia do Programa  
-**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-DIRECTIVE-028 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
+**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-DIRECTIVE-028 · COUNCIL-DIRECTIVE-029 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
 
 ---
 
@@ -78,6 +78,20 @@ Sistema → Domínio → Subdomínio → Pipeline → Engine → Módulo → Cla
 ```
 
 Nenhum componente poderá ser analisado isoladamente antes que o contexto estrutural do sistema tenha sido completamente documentado.
+
+### 3.9 Separação entre descrição e análise
+
+Durante as fases de inventário e cartografia do patrimônio técnico, toda documentação será estritamente descritiva.
+
+Análises, recomendações, propostas de migração, decisões de descarte e propostas de reconstrução só poderão ser produzidas após aprovação formal do Conselho.
+
+### 3.10 Evidência primária e ausência de evidência
+
+Toda afirmação sobre um componente do patrimônio técnico deverá estar vinculada a evidência primária rastreável.
+
+> **Ausência de evidência não constitui evidência de ausência.**
+
+Nenhum componente poderá ser considerado inexistente enquanto não forem concluídas todas as verificações previstas pela metodologia institucional.
 
 ---
 

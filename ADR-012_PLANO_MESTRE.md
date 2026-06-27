@@ -10,6 +10,7 @@
 **Atualização:** 2026-06-27 — CEO-DIRECTIVE-026: isolamento de workspaces reforçado; OMEGA_OS_Kernel classificado como Patrimônio Técnico Congelado; fluxo institucional de comunicação via Conselho formalizado
 **Atualização:** 2026-06-27 — CEO-DIRECTIVE-027: especificação oficial da ETAPA 3.5 aprovada; modelo canônico de inventário, Matriz de Paridade Funcional e critérios de encerramento definidos; Gate Arquitetural não é evidência de equivalência funcional
 **Atualização:** 2026-06-27 — COUNCIL-DIRECTIVE-028: ETAPA 3.5 reorganizada em 8 fases (0-7); Cartografia Institucional obrigatória antes do Inventário Técnico; SYSTEM_MAP.md, ARCHITECTURE_MAP.md, DEPENDENCY_MAP.md e SYSTEM_FLOW_MAP.md como entregáveis obrigatórios
+**Atualização:** 2026-06-27 — COUNCIL-DIRECTIVE-029: metodologia obrigatória da FASE 2 (ARCHITECTURE MAP); documentação estritamente descritiva, evidência primária, neutralidade técnica e separação entre descrição e análise
 **Supersede:** ADR-009 (VOID — ID realocado para evitar colisão)  
 **Nota:** ADR-009, ADR-010, ADR-011 reservados para uso futuro do Conselho.
 

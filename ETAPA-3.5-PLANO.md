@@ -62,10 +62,15 @@ A análise abrangerá todo o OMEGA_OS_Kernel, incluindo:
 - Estatísticas: 1.338 diretórios, 12.523 arquivos, 718 MB.
 - Nenhum código interpretado.
 
-### FASE 2 — Arquitetura Estrutural
+### FASE 2 — Arquitetura Estrutural / ARCHITECTURE MAP 🚀 INICIADA
 
 - Identificar domínios, subdomínios, engines, pipelines, packages, agentes, serviços, camadas e interfaces.
-- **Entregável obrigatório:** `ARCHITECTURE_MAP.md`
+- Metodologia obrigatória: `COUNCIL-DIRECTIVE-029` (descrição estritamente descritiva, evidência primária, neutralidade técnica).
+- **Entregáveis obrigatórios:**
+  - `ARCHITECTURE_MAP.md`
+  - `ARCHITECTURE_INDEX.md`
+  - `EVIDENCE_INDEX.md`
+- Início validado por `SYNC-VALIDATION-PSA-006`.
 
 ### FASE 3 — Mapa de Dependências
 
@@ -124,13 +129,15 @@ Função
 
 1. `OMEGA-CONSTITUTION-001.md` ✅
 2. `ETAPA-3.5-PLANO.md` ✅
-3. `SYSTEM_MAP.md` (FASE 1)
+3. `SYSTEM_MAP.md` (FASE 1) ✅
 4. `ARCHITECTURE_MAP.md` (FASE 2)
-5. `DEPENDENCY_MAP.md` (FASE 3)
-6. `SYSTEM_FLOW_MAP.md` (FASE 4)
-7. `METODOLOGIA-PARIDADE-FUNCIONAL.md`
-8. `MIGRATION-TRACEABILITY-MATRIX.md`
-9. `CRITERIOS-GATE-FUNCIONAL.md`
+5. `ARCHITECTURE_INDEX.md` (FASE 2)
+6. `EVIDENCE_INDEX.md` (FASE 2)
+7. `DEPENDENCY_MAP.md` (FASE 3)
+8. `SYSTEM_FLOW_MAP.md` (FASE 4)
+9. `METODOLOGIA-PARIDADE-FUNCIONAL.md`
+10. `MIGRATION-TRACEABILITY-MATRIX.md`
+11. `CRITERIOS-GATE-FUNCIONAL.md`
 
 ---
 

@@ -48,7 +48,8 @@
 | CEO-DIRECTIVE-026 | Protocolo permanente de isolamento de workspaces, preservação do patrimônio técnico OMEGA_OS_Kernel como Patrimônio Técnico Congelado e comunicação institucional via Conselho | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
 | CEO-DIRECTIVE-027 | Especificação oficial da ETAPA 3.5: Inventário Institucional do Patrimônio Técnico e Matriz de Paridade Funcional; Gate Arquitetural não é evidência de equivalência funcional | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
 | COUNCIL-DIRECTIVE-028 | Reorganização metodológica da ETAPA 3.5: Cartografia Institucional obrigatória antes do Inventário Técnico; FASES 0..7 definidas | ✅ VIGENTE | 2026-06-27 | Conselho |
-| COUNCIL-PROPOSAL-002 | Proposta para deliberação estratégica: redefinição da missão, princípios de recuperação do patrimônio técnico e encerramento da primeira etapa de reorientação | ⏳ AGUARDANDO DELIBERAÇÃO | 2026-06-27 | Conselho |
+| COUNCIL-PROPOSAL-002 | Proposta para deliberação estratégica: redefinição da missão, princípios de recuperação do patrimônio técnico e encerramento da primeira etapa de reorientação | ✅ APROVADO | 2026-06-27 | Conselho |
+| COUNCIL-DIRECTIVE-029 | Metodologia obrigatória para FASE 2 — ARCHITECTURE MAP: descrição estritamente descritiva, evidência primária, neutralidade e separação descrição/análise | ✅ VIGENTE | 2026-06-27 | Conselho |
 | COUNCIL-SYNC-REQUEST-001 | Solicitação do Conselho ao PSA para validar SYNC-OUT AIC e convergência antes de TASK-0024 | ✅ ATENDIDA | 2026-06-27 | CEO / Conselho |
 | SYNC-VALIDATION-PSA-001 | Parecer PSA: estado do Kernel converge com SYNC-OUT AIC; incidente TOPOLOGY-MIG3 encerrado; TASK-0024 desbloqueada | ✅ VALIDADO | 2026-06-27 | PSA |
 | TASK-0023-V6-VALIDATION-001 | Validação integrada do baseline V6 (MIG-1+MIG-2+MIG-3); CA-V6-01..CA-V6-06 PASS; baseline READY FOR MIG-4 | ✅ VALIDADO | 2026-06-27 | PSA + AIC |
