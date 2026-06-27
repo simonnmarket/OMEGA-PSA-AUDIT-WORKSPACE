@@ -65,6 +65,12 @@
 |----|---------|--------|------|---------|
 | DEC-GATE-MIG2 | GATE-MIG2 FECHADO — MIG-2 Market Data Engine implementado, CA-01..CA-08 PASS, CI 35/35, anti-BUG-002 verificado | ✅ FECHADO | 2026-06-25 | DEC-MIG2-001 · GATE-MIG2-PARECER-PSA-001 · TASK-0022 |
 
+### TYPE: GATE (Decisões de portão — GATE-MIG3)
+
+| ID | Decisão | Status | Data | Vínculo |
+|----|---------|--------|------|---------|
+| DEC-GATE-MIG3-001 | GATE-MIG3 FECHADO — MIG-3 Position Manager implementado, CA-01..CA-08 PASS, CI 45/45, zero order_send, sem regressões | ✅ FECHADO | 2026-06-27 | DEC-MIG3-001 · GATE-MIG3-PARECER-PSA-001 · TASK-0023 |
+
 ---
 
 ## Tasks V6 Concluídas (Log de Execução)

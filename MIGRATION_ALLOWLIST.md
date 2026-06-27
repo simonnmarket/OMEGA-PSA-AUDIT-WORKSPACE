@@ -53,10 +53,14 @@ Nenhum MIG pode ser iniciado sem:
 **Gate de entrada:** GATE-MIG2 FECHADO  
 **Gate de saída:** GATE-MIG3  
 **Bugs associados:** — (sem bug canônico obrigatório)  
+**Proibição absoluta:** `order_send()` · Execution Engine · Risk Engine · Reconciliation Engine · SIVR-1  
 **Escopo autorizado:**
-- Gerenciamento soberano de estado de posição
-- Telemetria ativa por posição
-**Critério de aceite:** Estados rastreáveis · Telemetria ativa · CI verde
+- `contracts/position_contract.py` — PositionTicket, PositionSnapshot, ExposureSummary, PositionEvent, PositionManager Protocol
+- `position_manager/` — SovereignPositionManager, PositionLedger, PositionValidator, ExposureCalculator
+- `position_manager/sync/` — MockBrokerSync (CI), Mt5PositionSync (read-only)
+- `tests/test_position_manager.py` — CA-01 a CA-08
+**Critério de aceite:** CA-01..CA-08 · Zero `order_send` · Fail-closed · Integração MIG-2 · CI verde  
+**Status:** ✅ GATE-MIG3 FECHADO (DEC-GATE-MIG3-001 · 2026-06-27)
 
 ---
 
@@ -151,7 +155,9 @@ GATE-MIG1 (✅ FECHADO — DEC-GATE-MIG1 · 2026-06-24)
   ↓
 GATE-MIG2 (✅ FECHADO — DEC-GATE-MIG2 · 2026-06-25)
   ↓
-GATE-MIG3 → GATE-MIG4 → GATE-MIG5 → GATE-MIG6
+GATE-MIG3 (✅ FECHADO — DEC-GATE-MIG3-001 · 2026-06-27)
+  ↓
+GATE-MIG4 → GATE-MIG5 → GATE-MIG6
   ↓
 GATE-DEMO (5 dias úteis)
   ↓
@@ -164,6 +170,6 @@ EXECUÇÃO REAL CONTROLADA
 
 ---
 
-*Última atualização: 2026-06-25*  
-*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18 · DEC-MIG2-001 · DEC-GATE-MIG2*  
-*Revisão: BUG-003 título corrigido conforme AIC-PARECER-MIG1-001 e Charter REV-1; MIG-1/MIG-2 gates fechados*
+*Última atualização: 2026-06-27*  
+*Autoridade: CFO-RAT-20260623-03 · ADR-012 · DEC-15 · DEC-18 · DEC-MIG2-001 · DEC-GATE-MIG2 · DEC-MIG3-001 · DEC-GATE-MIG3-001*  
+*Revisão: MIG-1/MIG-2/MIG-3 gates fechados; escopo MIG-3 detalhado; CA-01..CA-08 ratificados*
