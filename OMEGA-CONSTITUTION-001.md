@@ -8,7 +8,7 @@
 **Responsável pela incorporação:** Principal Solution Architect PSA  
 **Status:** ✅ VIGENTE  
 **Classificação:** Documento de maior hierarquia do Programa  
-**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
+**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-DIRECTIVE-028 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026 · CEO-DIRECTIVE-027
 
 ---
 
@@ -68,6 +68,16 @@ Aprovação no **Gate Arquitetural** comprova apenas que um componente possui co
 A **equivalência funcional** somente poderá ser declarada após comparação documentada com o legado, utilizando a **Matriz de Paridade Funcional** e evidências verificáveis.
 
 Nenhum Gate Arquitetural poderá ser interpretado como comprovação de comportamento equivalente ao OMEGA_OS_Kernel.
+
+### 3.8 Análise hierárquica do geral para o específico
+
+A compreensão do patrimônio técnico deverá evoluir obrigatoriamente da seguinte forma:
+
+```
+Sistema → Domínio → Subdomínio → Pipeline → Engine → Módulo → Classe → Método → Função
+```
+
+Nenhum componente poderá ser analisado isoladamente antes que o contexto estrutural do sistema tenha sido completamente documentado.
 
 ---
 

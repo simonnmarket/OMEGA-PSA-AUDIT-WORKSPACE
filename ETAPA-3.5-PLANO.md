@@ -5,9 +5,9 @@
 **Status:** EM ANDAMENTO  
 **Owner:** Principal Solution Architect PSA  
 **Prazo inicial:** 14 dias (2026-07-11)  
-**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-SYNC-REQUEST-002 · CEO-DIRECTIVE-027
+**Referência:** OMEGA-CONSTITUTION-001 · COUNCIL-SYNC-REQUEST-002 · CEO-DIRECTIVE-027 · COUNCIL-DIRECTIVE-028
 
-> **Nota:** A especificação oficial e detalhada da ETAPA 3.5 está em `CEO-DIRECTIVE-027.md`. Este documento permanece como resumo executivo e plano de trabalho.
+> **Nota:** A especificação oficial da ETAPA 3.5 está em `CEO-DIRECTIVE-027.md`. A metodologia de fases (0-7) está em `COUNCIL-DIRECTIVE-028.md`. Este documento permanece como resumo executivo e plano de trabalho.
 
 ---
 
@@ -46,77 +46,119 @@ A análise abrangerá todo o OMEGA_OS_Kernel, incluindo:
 
 ---
 
-## 3. Fases
+## 3. Fases (COUNCIL-DIRECTIVE-028)
 
-### Fase 1 — Coleta (dias 1-4)
+### FASE 0 — Congelamento Institucional
 
-- Listar todos os arquivos do OMEGA_OS_Kernel.
-- Identificar módulos, classes, funções e entrypoints.
-- Coletar documentação existente, logs, testes e configurações.
-- Entrevistas técnicas (se conhecimento tácito existir).
+- Confirmação do modo somente leitura do OMEGA_OS_Kernel.
+- Confirmação da integridade do patrimônio técnico.
+- Registro das evidências de origem.
 
-### Fase 2 — Classificação (dias 5-8)
+### FASE 1 — Cartografia Institucional
 
-- Classificar cada componente:
-  - PORTAR
-  - REESCREVER
-  - DESCARTAR
-  - REFERÊNCIA FORENSE
-- Documentar dependências e criticidade.
-- Identificar componentes contaminados a serem eliminados.
+- Produzir o mapa estrutural completo do OMEGA_OS_Kernel.
+- Fonte primária: `tree.txt` e estrutura física de diretórios.
+- **Entregável obrigatório:** `SYSTEM_MAP.md`
+- Nenhum código será interpretado nesta fase.
 
-### Fase 3 — Mapeamento (dias 9-11)
+### FASE 2 — Arquitetura Estrutural
 
-- Produzir Migration Traceability Matrix.
-- Mapear Legado → Componente → Responsabilidade → Dependências → Status → Destino MIG → Decisão.
-- Vincular cada componente a um MIG futuro ou a uma decisão institucional.
+- Identificar domínios, subdomínios, engines, pipelines, packages, agentes, serviços, camadas e interfaces.
+- **Entregável obrigatório:** `ARCHITECTURE_MAP.md`
 
-### Fase 4 — Definição de Paridade (dias 12-14)
+### FASE 3 — Mapa de Dependências
 
-- Definir critérios de equivalência por domínio.
-- Estabelecer tolerâncias e métodos de teste.
-- Documentar metodologia de prova de paridade.
+- Documentar quem chama quem, quem depende de quem, fluxos entre módulos, acoplamentos e pontos críticos.
+- **Entregável obrigatório:** `DEPENDENCY_MAP.md`
 
-### Fase 5 — Revisão e Aprovação (após dia 14)
+### FASE 4 — Fluxo Operacional
 
-- Submeter entregáveis ao Conselho.
-- Realizar sessão de deliberação.
-- Aprovar ou replanejar.
+- Reconstruir documentalmente o ciclo completo: entrada → processamento → análise → decisão → risco → execução → monitoramento → auditoria.
+- **Entregável obrigatório:** `SYSTEM_FLOW_MAP.md`
+
+### FASE 5 — Inventário Técnico
+
+- Somente após aprovação das FASES 1-4.
+- Análise individual de módulos, classes, componentes, contratos, estratégias e engines.
+- Segue a metodologia de `CEO-DIRECTIVE-027`.
+
+### FASE 6 — Matriz de Paridade Funcional
+
+- Comparação direta OMEGA_OS_Kernel × OMEGA-Kernel-Sovereign.
+- Classificação: portado, equivalente, parcial, pendente, descartado.
+
+### FASE 7 — Plano de Recuperação
+
+- Somente após conclusão da Matriz de Paridade.
+- Produzir prioridades, dependências, riscos e ordem de migração.
+- Nenhum desenvolvimento antes desta fase.
 
 ---
 
-## 4. Entregáveis
+## 4. Hierarquia Obrigatória de Análise
+
+```
+Sistema
+   ↓
+Domínio
+   ↓
+Subdomínio
+   ↓
+Pipeline
+   ↓
+Engine
+   ↓
+Módulo
+   ↓
+Classe
+   ↓
+Método
+   ↓
+Função
+```
+
+---
+
+## 5. Entregáveis
 
 1. `OMEGA-CONSTITUTION-001.md` ✅
 2. `ETAPA-3.5-PLANO.md` ✅
-3. `METODOLOGIA-PARIDADE-FUNCIONAL.md`
-4. `MIGRATION-TRACEABILITY-MATRIX.md`
-5. `CRITERIOS-GATE-FUNCIONAL.md`
+3. `SYSTEM_MAP.md` (FASE 1)
+4. `ARCHITECTURE_MAP.md` (FASE 2)
+5. `DEPENDENCY_MAP.md` (FASE 3)
+6. `SYSTEM_FLOW_MAP.md` (FASE 4)
+7. `METODOLOGIA-PARIDADE-FUNCIONAL.md`
+8. `MIGRATION-TRACEABILITY-MATRIX.md`
+9. `CRITERIOS-GATE-FUNCIONAL.md`
 
 ---
 
-## 5. Critério de Encerramento
+## 6. Critério de Encerramento
 
-A ETAPA 3.5 será considerada concluída quando o Conselho aprovar formalmente:
+A ETAPA 3.5 será considerada concluída quando o Conselho concluir que:
 
-- Constituição do Programa;
-- Metodologia de Paridade Funcional;
-- Matriz de Rastreabilidade;
-- Inventário Técnico Consolidado;
-- Critérios de Gate Funcional.
+- todo patrimônio técnico foi identificado;
+- toda arquitetura foi compreendida;
+- todo fluxo operacional foi documentado;
+- toda funcionalidade existente foi classificada;
+- a Matriz de Paridade Funcional estiver completa;
+- não existir componente desconhecido;
+- não existir módulo sem classificação;
+- não existir decisão baseada em hipótese.
 
 ---
 
-## 6. Restrições
+## 7. Restrições
 
 - Nenhuma implementação de código será realizada pelo AIC durante a ETAPA 3.5.
 - Nenhuma alteração estrutural será solicitada ao AIC.
+- Nenhuma análise individual de componentes antes da conclusão da Cartografia Institucional (FASES 1-4).
 - TASK-0024, MIG-4, MIG-5 e MIG-6 permanecem suspensos.
 - O AIC permanece em STANDBY.
 
 ---
 
-## 7. Riscos
+## 8. Riscos
 
 | Risco | Impacto | Mitigação |
 |-------|---------|-----------|
