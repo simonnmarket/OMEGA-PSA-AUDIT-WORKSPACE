@@ -44,6 +44,7 @@
 | DEC-MIG2-001 | Charter MIG-2 aprovado; implementação Market Data Engine autorizada ao AIC; GATE-MIG2 aberto; CA-01..CA-08 como critérios oficiais | ✅ APROVADO | 2026-06-25 | Conselho + CEO + CFO |
 | DEC-MIG3-001 | Charter MIG-3 aprovado; implementação Position Manager autorizada ao AIC; CA-01..CA-08 obrigatórios; order_send terminantemente proibido em MIG-3 | ✅ APROVADO | 2026-06-27 | Conselho + CEO |
 | CEO-DIRECTIVE-023A | Reforço permanente das fronteiras operacionais PSA × AIC; PSA proibido de commitar no Kernel; AIC proibido de alterar documentos do PSA | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
+| CEO-DIRECTIVE-024 | Política oficial permanente de isolamento de workspaces PSA × AIC; fluxo obrigatório Conselho→PSA→AIC→SYNC-OUT→PSA validação→Gate | ✅ VIGENTE | 2026-06-27 | CEO / Conselho |
 
 ### TYPE: GATE (Decisões de portão — GATE-0)
 
