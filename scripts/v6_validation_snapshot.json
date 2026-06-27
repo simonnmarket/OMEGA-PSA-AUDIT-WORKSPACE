@@ -1,0 +1,70 @@
+{
+  "task_id": "TASK-0023-V6-VALIDATION-001",
+  "status": "PASS",
+  "baseline": "V6 (MIG-1 + MIG-2 + MIG-3)",
+  "run_a": {
+    "timestamp_utc": "2026-06-27T11:50:04.662386+00:00",
+    "mig2": {
+      "symbol": "XAUUSD",
+      "bar_count": 50,
+      "source_id": "mock_test",
+      "first_close": 3990.0,
+      "last_close": 3994.2287
+    },
+    "mig1": {
+      "rsi": 44.15718606140671,
+      "ema": 3992.071377994091,
+      "deterministic": true
+    },
+    "signal": {
+      "side": "FLAT",
+      "reason": "no_signal"
+    },
+    "mig3": {
+      "is_flat": true,
+      "net_volume": 0.0,
+      "open_ticket_count": 0,
+      "position_status": "CLOSED"
+    },
+    "forbidden_check": {
+      "order_send": "absent"
+    }
+  },
+  "run_b": {
+    "timestamp_utc": "2026-06-27T11:50:04.665908+00:00",
+    "mig2": {
+      "symbol": "XAUUSD",
+      "bar_count": 50,
+      "source_id": "mock_test",
+      "first_close": 3990.0,
+      "last_close": 3994.2287
+    },
+    "mig1": {
+      "rsi": 44.15718606140671,
+      "ema": 3992.071377994091,
+      "deterministic": true
+    },
+    "signal": {
+      "side": "FLAT",
+      "reason": "no_signal"
+    },
+    "mig3": {
+      "is_flat": true,
+      "net_volume": 0.0,
+      "open_ticket_count": 0,
+      "position_status": "CLOSED"
+    },
+    "forbidden_check": {
+      "order_send": "absent"
+    }
+  },
+  "reproducible": true,
+  "criteria": {
+    "CA-V6-01": "PASS",
+    "CA-V6-02": "PASS",
+    "CA-V6-03": "PASS",
+    "CA-V6-04": "PASS",
+    "CA-V6-05": "PASS",
+    "CA-V6-06": "PASS"
+  }
+}
