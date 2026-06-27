@@ -54,8 +54,13 @@ Adotar a **Alternativa C** descrita no `PSA-ANALYSIS-COUNCIL-DIRECTIVE-029-REVIS
 
 A `COUNCIL-RESOLUTION-001` (proposta) estabelece a **Regra de Versionamento** que resolve a raiz deste conflito: IDs institucionais não podem ser reutilizados para conteúdos diferentes. Se ratificada, a Resolução deverá ser aplicada para formalizar a separação entre `COUNCIL-DIRECTIVE-029` (metodologia FASE 2) e um novo documento de autorização geral.
 
-- Parecer PSA: `SYNC-VALIDATION-PSA-007` (favorável à ratificação).
+O `CSO-SCI-PARECER-001` emitiu parecer favorável à ratificação com ajustes de redação. O PSA acolheu as correções e gerou a versão revisada `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`, registradas no `PSA-REVISION-COUNCIL-RESOLUTION-001.md`.
+
+- Parecer PSA: `SYNC-VALIDATION-PSA-007` (favorável à ratificação, considerando a versão revisada).
 - Análise PSA: `PSA-ANALYSIS-COUNCIL-RESOLUTION-001.md`.
+- Parecer CSO: `CSO-SCI-PARECER-001.md`.
+- Revisão PSA: `PSA-REVISION-COUNCIL-RESOLUTION-001.md`.
+- Versão revisada: `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`.
 
 ---
 
@@ -65,6 +70,11 @@ A `COUNCIL-RESOLUTION-001` (proposta) estabelece a **Regra de Versionamento** qu
 - `COUNCIL-DIRECTIVE-029.md`
 - `COUNCIL-DIRECTIVE-029-REVISAO-CEO.md`
 - `COUNCIL-DIRECTIVE-028.md`
+- `COUNCIL-RESOLUTION-001.md`
+- `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`
+- `CSO-SCI-PARECER-001.md`
+- `PSA-REVISION-COUNCIL-RESOLUTION-001.md`
+- `PSA-ANALYSIS-COUNCIL-RESOLUTION-001.md`
 - `OMEGA-CONSTITUTION-001.md`
 - `ETAPA-3.5-PLANO.md`
 

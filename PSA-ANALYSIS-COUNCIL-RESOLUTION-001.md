@@ -169,9 +169,27 @@ Recomenda-se que a ratificação seja acompanhada de uma deliberação específi
 
 ---
 
-## 7. Referências
+## 7. Atualização após CSO-SCI-PARECER-001
+
+O CSO-SCI-PARECER-001 emitiu parecer **FAVORÁVEL À RATIFICAÇÃO COM AJUSTES** e recomendou três correções de redação:
+
+1. **Ajuste sobre unanimidade:** evitar a expressão "6/6 pareceres = unanimidade" e adotar redação sobre convergência dos pareceres formalmente recebidos.
+2. **Ajuste sobre conduta do PSA:** evitar a expressão "O PSA fez certo" e adotar redação sobre aderência a princípios de governança.
+3. **Seção de valor permanente:** incluir seção que eleva a Resolução de medida corretiva a pilar institucional.
+
+O PSA acolhe as três correções e as incorporou em:
+
+- `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`
+- `PSA-REVISION-COUNCIL-RESOLUTION-001.md`
+
+O parecer do PSA permanece **FAVORÁVEL à ratificação**, agora com base na versão revisada.
+
+## 8. Referências
 
 - `COUNCIL-RESOLUTION-001.md`
+- `COUNCIL-RESOLUTION-001-v1-CSO-REVISAO.md`
+- `CSO-SCI-PARECER-001.md`
+- `PSA-REVISION-COUNCIL-RESOLUTION-001.md`
 - `OMEGA-CONSTITUTION-001.md`
 - `CONFLICT-REGISTRY-001.md`
 - `COUNCIL-DIRECTIVE-029.md`
