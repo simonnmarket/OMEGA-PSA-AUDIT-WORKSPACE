@@ -8,7 +8,7 @@
 **Responsável pela incorporação:** Principal Solution Architect PSA  
 **Status:** ✅ VIGENTE  
 **Classificação:** Documento de maior hierarquia do Programa  
-**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024
+**Referências:** COUNCIL-DIRECTIVE-025 · COUNCIL-SYNC-REQUEST-002 · DEC-RESET-001 · CEO-DIRECTIVE-024 · CEO-DIRECTIVE-026
 
 ---
 
@@ -52,6 +52,14 @@ Cada componente deverá passar por:
 
 - **Gate Arquitetural** — valida estrutura, contratos, CI, isolamento, determinismo.
 - **Gate Funcional** — valida comportamento equivalente ao legado.
+
+### 3.6 Isolamento de workspaces e patrimônio técnico congelado
+
+- O PSA atua exclusivamente no `OMEGA-PSA-AUDIT-WORKSPACE`.
+- O AIC atua exclusivamente no `OMEGA-Kernel-Sovereign`.
+- O `OMEGA_OS_Kernel` é **Patrimônio Técnico Congelado** — somente leitura, sem modificações.
+- Toda comunicação entre PSA e AIC ocorre mediante fluxo institucional aprovado pelo Conselho.
+- Detalhamento operacional em CEO-DIRECTIVE-026.
 
 ---
 

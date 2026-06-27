@@ -7,6 +7,7 @@
 **Referência:** DEC-15  
 **Atualização:** 2026-06-24 — Taskade removido, PSA assume autoridade documental  
 **Atualização:** 2026-06-27 — COUNCIL-DIRECTIVE-025: OMEGA-CONSTITUTION-001 institucionalizada; ETAPA 3.5 inserida; MIG-1/2/3 reclassificados como Gates Arquiteturais; MIG-4/5/6 suspensos
+**Atualização:** 2026-06-27 — CEO-DIRECTIVE-026: isolamento de workspaces reforçado; OMEGA_OS_Kernel classificado como Patrimônio Técnico Congelado; fluxo institucional de comunicação via Conselho formalizado
 **Supersede:** ADR-009 (VOID — ID realocado para evitar colisão)  
 **Nota:** ADR-009, ADR-010, ADR-011 reservados para uso futuro do Conselho.
 
