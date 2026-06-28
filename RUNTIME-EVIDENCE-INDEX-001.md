@@ -34,36 +34,36 @@ Cada evidência é indexada com:
 
 ### 3.1 Evidências Normativas
 
-| ID | Documento | Seção/Arquivo | Uso no Mapa | Status | Observações |
-|----|-----------|---------------|-------------|--------|-------------|
-| EVID-N001 | COUNCIL-DIRECTIVE-029 | Completo | Metodologia FASE 2 | ✅ Confirmada | Base metodológica |
-| EVID-N002 | COUNCIL-DIRECTIVE-030 | Completo | Autorização ETAPA 3.5 | ✅ Confirmada | READ ONLY |
-| EVID-N003 | OMEGA-CONSTITUTION-001 | Completo | Hierarquia documental | ✅ Confirmada | Constituição vigente |
-| EVID-N004 | CSO-SCI-PARECER-003 | Completo | Diretrizes FASE 2 | ✅ Confirmada | Prioridade Runtime |
-| EVID-N005 | CSO-SCI-REVIEW-007 | Completo | Aprovação mapa | ✅ Confirmada | Status final |
+| ID | Documento | Endereço Completo | Seção/Arquivo | Uso no Mapa | Status | Observações |
+|----|-----------|------------------|---------------|-------------|--------|-------------|
+| EVID-N001 | COUNCIL-DIRECTIVE-029.md | C:\OMEGA-PSA-AUDIT-WORKSPACE\COUNCIL-DIRECTIVE-029.md | Completo | Metodologia FASE 2 | ✅ Confirmada | Base metodológica |
+| EVID-N002 | COUNCIL-DIRECTIVE-030.md | C:\OMEGA-PSA-AUDIT-WORKSPACE\COUNCIL-DIRECTIVE-030.md | Completo | Autorização ETAPA 3.5 | ✅ Confirmada | READ ONLY |
+| EVID-N003 | OMEGA-CONSTITUTION-001.md | C:\OMEGA-PSA-AUDIT-WORKSPACE\OMEGA-CONSTITUTION-001.md | Completo | Hierarquia documental | ✅ Confirmada | Constituição vigente |
+| EVID-N004 | CSO-SCI-PARECER-003.md | C:\OMEGA-PSA-AUDIT-WORKSPACE\CSO-SCI-PARECER-003.md | Completo | Diretrizes FASE 2 | ✅ Confirmada | Prioridade Runtime |
+| EVID-N005 | CSO-SCI-REVIEW-007.md | C:\OMEGA-PSA-AUDIT-WORKSPACE\CSO-SCI-REVIEW-007.md | Completo | Aprovação mapa | ✅ Confirmada | Status final |
 
 ### 3.2 Evidências Forenses
 
-| ID | Documento | Seção/Arquivo | Uso no Mapa | Status | Observações |
-|----|-----------|---------------|-------------|--------|-------------|
-| EVID-F001 | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | Universo A/B | Definição universos | ⚠️ Pendente | Aguardando localização |
-| EVID-F002 | ADENDO_DOCUMENTO_MESTRE_v1.1_FECHAMENTO_PRE_CONSELHO_20260618.md | Universo A/B | Complemento | ⚠️ Pendente | Aguardando localização |
-| EVID-F003 | FOR10 — AUDITORIA FORENSE DE LINHAGEM DE SINAL | CT-01 | Linhagem sinal | ❌ Lacuna | Report Conselho 040626\Etapa 150626\A\ |
-| EVID-F004 | FOR11 — BUSINESS FLOW RECONCILIATION AUDIT | CT-02 | Fluxo negócio | ❌ Lacuna | Report Conselho 040626\Etapa 150626\B\ |
-| EVID-F005 | FOR12 — ENGINE TRUTH AUDIT | CT-03 | Verdade motor | ❌ Lacuna | Report Conselho 040626\Etapa 150626\C\ |
-| EVID-F006 | FOR14 — OMEGA ENGINE FINALIZATION PROTOCOL | CT-04 | Finalização | ❌ Lacuna | Report Conselho 040626\Etapa 160626\A\ |
-| EVID-F007 | FOR15 | CT-05 | [Pendente] | ❌ Lacuna | Report Conselho 040626\Etapa 160626\C e D\ |
-| EVID-F008 | FMED-01 — FINAL MANDATORY EXECUTION DIRECTIVE | CT-06/CT-10 | Execução | ❌ Lacuna | Report Conselho 040626\Etapa 160626\E\ |
-| EVID-F009 | FMED-02 | CT-07/CT-08 | [Pendente] | ❌ Lacuna | Report Conselho 040626\Etapa 170626\A/B\ |
-| EVID-F010 | FMED-03 | CT-09 | [Pendente] | ❌ Lacuna | Report Conselho 040626\Etapa 170626\C\ |
+| ID | Documento | Endereço Completo | Seção/Arquivo | Uso no Mapa | Status | Observações |
+|----|-----------|------------------|---------------|-------------|--------|-------------|
+| EVID-F001 | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 180626\ | Universo A/B | Definição universos | ❌ Lacuna | Fonte primária CSO-Sci |
+| EVID-F002 | ADENDO_DOCUMENTO_MESTRE_v1.1_FECHAMENTO_PRE_CONSELHO_20260618.md | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 180626\ | Universo A/B | Complemento | ❌ Lacuna | Fonte primária CSO-Sci |
+| EVID-F003 | FOR10 — AUDITORIA FORENSE DE LINHAGEM DE SINAL.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 150626\A\ | CT-01 | Linhagem sinal | ❌ Lacuna | Aguardando localização |
+| EVID-F004 | FOR11 — BUSINESS FLOW RECONCILIATION AUDIT.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 150626\B\ | CT-02 | Fluxo negócio | ❌ Lacuna | Aguardando localização |
+| EVID-F005 | FOR12 — ENGINE TRUTH AUDIT.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 150626\C\ | CT-03 | Verdade motor | ❌ Lacuna | Aguardando localização |
+| EVID-F006 | FOR14 — OMEGA ENGINE FINALIZATION PROTOCOL.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 160626\A\ | CT-04 | Finalização | ❌ Lacuna | Aguardando localização |
+| EVID-F007 | FOR15.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 160626\C e D\ | CT-05 | [Pendente] | ❌ Lacuna | Aguardando localização |
+| EVID-F008 | FMED-01 — FINAL MANDATORY EXECUTION DIRECTIVE.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 160626\E\ | CT-06/CT-10 | Execução | ❌ Lacuna | Aguardando localização |
+| EVID-F009 | FMED-02.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 170626\A/B\ | CT-07/CT-08 | [Pendente] | ❌ Lacuna | Aguardando localização |
+| EVID-F010 | FMED-03.txt | [NÃO LOCALIZADO] Report Conselho 040626\Etapa 170626\C\ | CT-09 | [Pendente] | ❌ Lacuna | Aguardando localização |
 
 ### 3.3 Evidências Históricas
 
-| ID | Documento | Seção/Arquivo | Uso no Mapa | Status | Observações |
-|----|-----------|---------------|-------------|--------|-------------|
-| EVID-H001 | SYNC-VALIDATION-PSA-001.md | Completo | Universo A validação | ✅ Confirmada | Estado repositório |
-| EVID-H002 | TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627.md | Completo | Universo B contexto | ✅ Confirmada | Patrimônio legado |
-| EVID-H003 | AIC-STANDBY-NOTIFICATION-001.md | Completo | Bloqueios vigentes | ✅ Confirmada | STANDBY AIC |
+| ID | Documento | Endereço Completo | Seção/Arquivo | Uso no Mapa | Status | Observações |
+|----|-----------|------------------|---------------|-------------|--------|-------------|
+| EVID-H001 | SYNC-VALIDATION-PSA-001.md | C:\Users\Lenovo\Desktop\File Desktop\ANÁLISE DE DESVIO ARQUITETURAL E REGRESSÃO FUNCIONAL\3 Etapa\SYNC-VALIDATION-PSA-001.md | Completo | Universo A validação | ✅ Confirmada | Estado repositório |
+| EVID-H002 | TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627.md | C:\Users\Lenovo\Desktop\File Desktop\ANÁLISE DE DESVIO ARQUITETURAL E REGRESSÃO FUNCIONAL\3 Etapa\Tech Lead - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627.md | Completo | Universo B contexto | ✅ Confirmada | Patrimônio legado |
+| EVID-H003 | AIC-STANDBY-NOTIFICATION-001.md | C:\Users\Lenovo\Desktop\File Desktop\ANÁLISE DE DESVIO ARQUITETURAL E REGRESSÃO FUNCIONAL\3 Etapa\AIC-STANDBY-NOTIFICATION-001.md | Completo | Bloqueios vigentes | ✅ Confirmada | STANDBY AIC |
 
 ---
 
