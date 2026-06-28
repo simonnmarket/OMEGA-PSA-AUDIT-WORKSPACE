@@ -6,10 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** RUNTIME-SOVEREIGNTY-MAP-001 · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-008  
-**Status:** ✅ FASE 2.1 ENCERRADA — PROSSEGUIR PARA CONSOLIDAÇÃO — FASE 2.4  
+**Status:** ✅ CONSOLIDADO — ENTREGA SUBSTANTIVA COMPLETA — FASE 2.4  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
 **Status CSO-SCI-CLOSURE-010:** FASE 2.1 ENCERRADA — CICLO DE SOBERANIA DE RUNTIME FINALIZADO  
-**Próximo passo:** Consolidação substantiva do ARCHITECTURE_MAP (sem novo ciclo intermediário)
+**Próximo passo:** CSO-SCI-REVIEW-011 (Revisão Científica do ARCHITECTURE_MAP Consolidado)
 
 ---
 
@@ -36,59 +36,132 @@ Separar entre arquitetura real, runtime observado e runtime legado, herdando exp
 
 ---
 
-## 3. Arquitetura Real vs Runtime Observado vs Runtime Legado
+## 3. Estrutura Arquitetural Completa
 
-### 3.1 Arquitetura Real
+### 3.1 Visão Geral dos Universos
 
-**Status:** ⚠️ BLOQUEIO PARCIAL DE RASTREABILIDADE — CONDICIONADO
+**Status:** ⚠️ ARQUITETURA PARCIALMENTE DOCUMENTADA — CONDICIONADO
 
-| Componente | Universo | Evidência | Status | Impacto |
-|------------|----------|-----------|--------|---------|
-| Launcher A | Universo A | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
-| Motor A | Universo A | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
-| Launcher B | Universo B | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
-| Motor B | Universo B | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
+| Dimensão | Universo A (Soberano) | Universo B (Legado) | Status | Evidência |
+|----------|----------------------|--------------------|--------|-----------|
+| **Runtime** | launch_24h_clean.py → shadow_loop_v33_final.py | run_omega_24x7.ps1 → omega_paper_loop_24x7.py → shadow_loop.py | Separado | EVID-F001/F002 |
+| **Kernel** | OMEGA-Kernel-Sovereign | OMEGA_OS_Kernel | Não fundido | SYNC-VALIDATION-PSA-001 |
+| **Ambiente** | Runtime observado pelo Conselho | Runtime alternativo/legado | Distinto | TECH LEAD ANALYSIS |
+| **Contaminação** | CT-06, CT-10 | CT-06, CT-10 | Compartilhado | EVID-F008/F010 |
 
 **⚠️ CONDICIONANTE:** Esta seção depende de evidências forenses pendentes (EVID-F001, EVID-F002).
 
-### 3.2 Runtime Observado (Universo A)
+### 3.2 Camadas Arquiteturais
 
-**Status:** ✅ PARCIALMENTE DOCUMENTADO
+#### 3.2.1 Camada de Execução (Runtime Layer)
 
-| Componente | Descrição | Evidência Confirmada | Lacuna Forense |
-|------------|-----------|---------------------|----------------|
-| launch_24h_clean.py | Launcher soberano | SYNC-VALIDATION-PSA-001 | DOCUMENTO_MESTRE |
-| shadow_loop_v33_final.py | Motor soberano | SYNC-VALIDATION-PSA-001 | DOCUMENTO_MESTRE |
+**Universo A — Camada Soberana:**
+- **Launcher:** launch_24h_clean.py
+- **Motor Principal:** shadow_loop_v33_final.py
+- **Cadeia de Decisão:** launch_24h_clean.py → shadow_loop_v33_final.py
+- **Evidência:** SYNC-VALIDATION-PSA-001 (confirmada)
+- **Lacuna:** DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md (EVID-F001)
 
-### 3.3 Runtime Legado (Universo B)
+**Universo B — Camada Legada:**
+- **Launcher:** run_omega_24x7.ps1
+- **Motor Intermediário:** omega_paper_loop_24x7.py
+- **Motor Final:** shadow_loop.py
+- **Cadeia de Decisão:** run_omega_24x7.ps1 → omega_paper_loop_24x7.py → shadow_loop.py
+- **Evidência:** TECH LEAD ANALYSIS (confirmada)
+- **Lacuna:** DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md (EVID-F001)
 
-**Status:** ✅ PARCIALMENTE DOCUMENTADO
+#### 3.2.2 Camada de Kernel (Kernel Layer)
 
-| Componente | Descrição | Evidência Confirmada | Lacuna Forense |
-|------------|-----------|---------------------|----------------|
-| run_omega_24x7.ps1 | Launcher legado | TECH LEAD ANALYSIS | DOCUMENTO_MESTRE |
-| omega_paper_loop_24x7.py | Motor intermediário | TECH LEAD ANALYSIS | DOCUMENTO_MESTRE |
-| shadow_loop.py | Motor legado | TECH LEAD ANALYSIS | DOCUMENTO_MESTRE |
+**OMEGA-Kernel-Sovereign (Universo A):**
+- **Status:** Runtime observado pelo Conselho
+- **Componentes:** launch_24h_clean.py, shadow_loop_v33_final.py
+- **Evidência:** SYNC-VALIDATION-PSA-001
+- **Classificação:** Soberano
+
+**OMEGA_OS_Kernel (Universo B):**
+- **Status:** Patrimônio legado/alternativo
+- **Componentes:** run_omega_24x7.ps1, omega_paper_loop_24x7.py, shadow_loop.py
+- **Evidência:** TECH LEAD ANALYSIS
+- **Classificação:** Legado
+
+**⚠️ RESTRIÇÃO:** Nenhuma fusão autorizada entre os kernels.
+
+#### 3.2.3 Camada de Contaminação (Contamination Layer)
+
+**CT-06 — Contaminação Identificada:**
+- **Afetados:** shadow_loop_v33_final.py (A) e shadow_loop.py (B)
+- **Evidência:** FMED-01 (EVID-F008)
+- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE
+
+**CT-10 — Contaminação Identificada:**
+- **Afetados:** shadow_loop_v33_final.py (A) e shadow_loop.py (B)
+- **Evidência:** FMED-03 (EVID-F010)
+- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE
+
+**⚠️ CONDICIONANTE:** Contaminações dependem de evidências forenses pendentes.
+
+### 3.3 Módulos e Componentes
+
+#### 3.3.1 Universo A — Módulos Soberanos
+
+| Módulo | Componente | Função | Evidência | Status |
+|--------|------------|--------|-----------|--------|
+| LAUNCH-SOV-001 | launch_24h_clean.py | Inicialização soberana | SYNC-VALIDATION-PSA-001 | ✅ Confirmado |
+| ENGINE-SOV-001 | shadow_loop_v33_final.py | Motor principal soberano | SYNC-VALIDATION-PSA-001 | ✅ Confirmado |
+| CHAIN-SOV-001 | launch_24h_clean.py → shadow_loop_v33_final.py | Cadeia de decisão soberana | EVID-F001 | ❌ Lacuna |
+
+#### 3.3.2 Universo B — Módulos Legados
+
+| Módulo | Componente | Função | Evidência | Status |
+|--------|------------|--------|-----------|--------|
+| LAUNCH-LEG-001 | run_omega_24x7.ps1 | Inicialização legada | TECH LEAD ANALYSIS | ✅ Confirmado |
+| ENGINE-LEG-001 | omega_paper_loop_24x7.py | Motor intermediário | TECH LEAD ANALYSIS | ✅ Confirmado |
+| ENGINE-LEG-002 | shadow_loop.py | Motor final legado | TECH LEAD ANALYSIS | ✅ Confirmado |
+| CHAIN-LEG-001 | run_omega_24x7.ps1 → omega_paper_loop_24x7.py → shadow_loop.py | Cadeia de decisão legada | EVID-F001 | ❌ Lacuna |
+
+#### 3.3.3 Módulos de Contaminação
+
+| Módulo | Componentes Afetados | Tipo | Evidência | Status |
+|--------|-------------------|------|-----------|--------|
+| CONTAM-CT06 | shadow_loop_v33_final.py, shadow_loop.py | Contaminação | FMED-01 (EVID-F008) | ❌ Lacuna |
+| CONTAM-CT10 | shadow_loop_v33_final.py, shadow_loop.py | Contaminação | FMED-03 (EVID-F010) | ❌ Lacuna |
 
 ---
 
-## 4. Separação Estrita OMEGA-Kernel-Sovereign vs OMEGA_OS_Kernel
+## 4. Relação entre Arquitetura Observada e Pretendida
 
-### 4.1 OMEGA-Kernel-Sovereign (Universo A)
+### 4.1 Arquitetura Observada (Estado Atual)
 
-- **Status:** Runtime observado pelo Conselho
-- **Componentes:** launch_24h_clean.py, shadow_loop_v33_final.py
-- **Evidência:** SYNC-VALIDATION-PSA-001 (confirmada)
-- **Lacuna:** DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md (pendente)
+**Status:** ✅ PARCIALMENTE DOCUMENTADO
 
-### 4.2 OMEGA_OS_Kernel (Universo B)
+| Aspecto | Universo A | Universo B | Evidência |
+|---------|------------|------------|-----------|
+| **Runtime Executando** | shadow_loop_v33_final.py | shadow_loop.py | SYNC-VALIDATION-PSA-001 |
+| **Launcher Ativo** | launch_24h_clean.py | run_omega_24x7.ps1 | SYNC-VALIDATION-PSA-001 |
+| **Kernel Base** | OMEGA-Kernel-Sovereign | OMEGA_OS_Kernel | TECH LEAD ANALYSIS |
+| **Contaminações** | CT-06, CT-10 | CT-06, CT-10 | EVID-F008/F010 |
 
-- **Status:** Runtime legado/alternativo
-- **Componentes:** run_omega_24x7.ps1, omega_paper_loop_24x7.py, shadow_loop.py
-- **Evidência:** TECH LEAD ANALYSIS (confirmada)
-- **Lacuna:** DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md (pendente)
+### 4.2 Arquitetura Pretendida (Estado Desejado)
 
-**Nenhuma fusão indevida autorizada.**
+**Status:** ⚠️ NÃO DEFINIDO — CONDICIONADO
+
+| Aspecto | Universo A | Universo B | Condicionante |
+|---------|------------|------------|---------------|
+| **Runtime Soberano** | Manter shadow_loop_v33_final.py | Isolar shadow_loop.py | EVID-F001 |
+| **Launcher Único** | Consolidar launch_24h_clean.py | Deprecar run_omega_24x7.ps1 | EVID-F002 |
+| **Kernel Unificado** | OMEGA-Kernel-Sovereign como base | Preservar OMEGA_OS_Kernel como legado | EVID-F014 |
+| **Contaminações** | Eliminar CT-06, CT-10 | Conter CT-06, CT-10 | EVID-F008/F010 |
+
+**⚠️ CONDICIONANTE:** Arquitetura pretendida depende de resolução das lacunas forenses.
+
+### 4.3 Gap Analysis
+
+| Dimensão | Estado Observado | Estado Pretendido | Gap | Evidência Necessária |
+|----------|------------------|------------------|-----|---------------------|
+| **Runtime** | Dois runtimes separados | Runtime soberano unificado | Separação → Unificação | EVID-F001, EVID-F014 |
+| **Launcher** | Dois launchers | Launcher soberano único | Redundância → Singularidade | EVID-F002 |
+| **Kernel** | Dois kernels | Kernel soberano + legado preservado | Paralelo → Hierárquico | EVID-F014 |
+| **Contaminação** | CT-06, CT-10 ativos | CT-06, CT-10 eliminados | Contaminado → Limpo | EVID-F008, EVID-F010 |
 
 ---
 
@@ -207,7 +280,7 @@ A partir de CSO-SCI-CLOSURE-010, não serão gerados novos documentos de confirm
 |------------|--------|------|-------------|
 | RUNTIME-SOVEREIGNTY-MAP-001 | ✅ APROVADO | 2026-06-28 | Mapa documental completo |
 | RUNTIME-EVIDENCE-INDEX-001 | ✅ APROVADO COM CONDICIONANTE | 2026-06-28 | Rastreabilidade forense pendente |
-| ARCHITECTURE_MAP | 🚀 EM CONSOLIDAÇÃO | 2026-06-28 | FASE 2.4 — Sem novo ciclo intermediário |
+| ARCHITECTURE_MAP | ✅ CONSOLIDADO | 2026-06-28 | Entrega substantiva completa — FASE 2.4 |
 
 ---
 
