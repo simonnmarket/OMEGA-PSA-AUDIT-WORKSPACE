@@ -67,6 +67,7 @@
 | CSO-SCI-REVIEW-013 | Revisão científica do PARITY-PRECHECK-MATRIX consolidado — aprovado com ajuste terminológico, FASE 2.6 aprovada | ✅ APROVADO COM AJUSTE TERMINOLÓGICO | 2026-06-28 | CSO-Sci |
 | CSO-SCI-REVIEW-014 | Revisão científica do PARITY-BLOCKER-REGISTER-001 e encerramento da FASE 2.6 — aprovado, FASE 2.6 encerrada | ✅ APROVADO | 2026-06-28 | CSO-Sci |
 | CSO-SCI-REVIEW-015 | Revisão científica do SCIENTIFIC-PARITY-VALIDATION-PROTOCOL e encerramento documental da FASE 2 — aprovado, FASE 2 encerrada | ✅ APROVADO | 2026-06-28 | CSO-Sci |
+| CSO-SCI-DIRECTIVE-016 | Abertura da Fase B — arquivamento controlado da FASE 2 e manutenção dos bloqueios — decisão executiva CEO aprovada | ✅ VIGENTE | 2026-06-28 | CSO-Sci + CEO |
 | SYNC-VALIDATION-PSA-001 | Parecer PSA: estado do Kernel converge com SYNC-OUT AIC; incidente TOPOLOGY-MIG3 encerrado; TASK-0024 desbloqueada | ✅ VALIDADO | 2026-06-27 | PSA |
 | TASK-0023-V6-VALIDATION-001 | Validação integrada do baseline V6 (MIG-1+MIG-2+MIG-3); CA-V6-01..CA-V6-06 PASS; baseline READY FOR MIG-4 | ✅ VALIDADO | 2026-06-27 | PSA + AIC |
 | DEC-RESET-001 | Reinicialização estratégica do programa: arquitetura válida, mas paridade funcional não demonstrada; mudança de "reimplementar" para "preservar comportamento" | ✅ VIGENTE | 2026-06-27 | Conselho / CEO |
