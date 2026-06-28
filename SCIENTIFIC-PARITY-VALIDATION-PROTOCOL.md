@@ -6,10 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** PARITY-BLOCKER-REGISTER-001 · CSO-SCI-REVIEW-014  
-**Status:** ✅ CONSOLIDADO — PROTOCOLO CIENTÍFICO COMPLETO — FASE 2.7  
+**Status:** ✅ APROVADO — PROTOCOLO CIENTÍFICO DOCUMENTAL — FASE 2.7  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Status CSO-SCI-REVIEW-014:** APROVADO — FASE 2.6 ENCERRADA  
-**Próximo passo:** Entrega consolidada ao CSO-Sci para novas diretrizes
+**Status CSO-SCI-REVIEW-015:** APROVADO — FASE 2 ENCERRADA  
+**Próximo passo:** Decisão CEO/Conselho sobre próximos movimentos do Programa
 
 ---
 
