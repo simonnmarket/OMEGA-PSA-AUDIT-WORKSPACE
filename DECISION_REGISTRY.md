@@ -56,6 +56,7 @@
 | COUNCIL-SYNC-REQUEST-001 | Solicitação do Conselho ao PSA para validar SYNC-OUT AIC e convergência antes de TASK-0024 | ✅ ATENDIDA | 2026-06-27 | CEO / Conselho |
 | CSO-SCI-PARECER-003 | Plano de retomada da FASE 2 com reaproveitamento de evidências históricas; prioridade em Soberania de Runtime | ✅ ACOLHIDO | 2026-06-28 | CSO-Sci |
 | CSO-SCI-COMUNICADO-004 | Validação de acolhimento do CSO-SCI-PARECER-003 e diretriz científica para continuidade da FASE 2 | ✅ RECEBIDO | 2026-06-28 | CSO-Sci |
+| CSO-SCI-COMUNICADO-005 | Confirmação de conformidade do PSA e marco de controle para revisão do RUNTIME-SOVEREIGNTY-MAP-001 | ✅ RECEBIDO | 2026-06-28 | CSO-Sci |
 | SYNC-VALIDATION-PSA-001 | Parecer PSA: estado do Kernel converge com SYNC-OUT AIC; incidente TOPOLOGY-MIG3 encerrado; TASK-0024 desbloqueada | ✅ VALIDADO | 2026-06-27 | PSA |
 | TASK-0023-V6-VALIDATION-001 | Validação integrada do baseline V6 (MIG-1+MIG-2+MIG-3); CA-V6-01..CA-V6-06 PASS; baseline READY FOR MIG-4 | ✅ VALIDADO | 2026-06-27 | PSA + AIC |
 | DEC-RESET-001 | Reinicialização estratégica do programa: arquitetura válida, mas paridade funcional não demonstrada; mudança de "reimplementar" para "preservar comportamento" | ✅ VIGENTE | 2026-06-27 | Conselho / CEO |
