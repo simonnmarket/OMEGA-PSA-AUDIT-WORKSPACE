@@ -6,9 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** PARITY-PRECHECK-MATRIX · CSO-SCI-REVIEW-013  
-**Status:** ✅ ATIVO — REGISTRO DE BLOQUEIOS VIGENTES  
+**Status:** ✅ APROVADO — REGISTRO DE BLOQUEIOS VIGENTES  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Autorização:** CSO-SCI-REVIEW-013 (diretriz de controle de bloqueios)
+**Status CSO-SCI-REVIEW-014:** APROVADO — FASE 2.6 ENCERRADA  
+**Próximo passo:** FASE 2.7 — SCIENTIFIC-PARITY-VALIDATION-PROTOCOL (conforme recomendação CSO-Sci)
 
 ---
 
