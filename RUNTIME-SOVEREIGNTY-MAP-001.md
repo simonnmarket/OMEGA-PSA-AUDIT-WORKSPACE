@@ -6,10 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** CSO-SCI-PARECER-003 · COUNCIL-DIRECTIVE-029 · COUNCIL-DIRECTIVE-030 · OMEGA-CONSTITUTION-001  
-**Status:** 🚀 EM COMPLEMENTAÇÃO — FASE 2.1  
+**Status:** ✅ APROVADO — FASE 2.1  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Próximo controle:** Reapresentação para CSO-SCI-REVIEW-006 (complementado)  
-**Status CSO-SCI-REVIEW-006:** DEVOLVIDO PARA COMPLEMENTAÇÃO
+**Status CSO-SCI-REVIEW-007:** APROVADO COMO MAPA DOCUMENTAL DA FASE 2.1  
+**Próximo passo:** RUNTIME-EVIDENCE-INDEX-001 (conforme recomendação CSO-Sci)
 
 ---
 
