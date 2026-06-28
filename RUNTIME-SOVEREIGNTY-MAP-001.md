@@ -6,9 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** CSO-SCI-PARECER-003 · COUNCIL-DIRECTIVE-029 · COUNCIL-DIRECTIVE-030 · OMEGA-CONSTITUTION-001  
-**Status:** 🚀 EM PREENCHIMENTO — FASE 2.1  
+**Status:** 🚀 EM COMPLEMENTAÇÃO — FASE 2.1  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Próximo controle:** CSO-SCI-REVIEW-006 (após preenchimento)
+**Próximo controle:** Reapresentação para CSO-SCI-REVIEW-006 (complementado)  
+**Status CSO-SCI-REVIEW-006:** DEVOLVIDO PARA COMPLEMENTAÇÃO
 
 ---
 
@@ -55,112 +56,116 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 
 ### 4.1 Universo A — Runtime Soberano
 
-**Status:** ⚠️ EM ANÁLISE
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Componente | Descrição | Classificação | Evidências |
 |------------|-----------|---------------|------------|
-| Launcher | [Pendente análise] | [Pendente] | FOR/FMED pendentes |
-| Motor | [Pendente análise] | [Pendente] | CT-01 a CT-10 pendentes |
-| Cadeia de Decisão | [Pendente análise] | [Pendente] | Documento Mestre pendente |
-| Ambiente | [Pendente análise] | [Pendente] | Logs pendentes |
+| Launcher | launch_24h_clean.py | Soberano | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Motor | shadow_loop_v33_final.py | Soberano | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Cadeia de Decisão | launch_24h_clean.py → shadow_loop_v33_final.py | Soberana | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Ambiente | Runtime observado pelo Conselho | Soberano | SYNC-VALIDATION-PSA-001 |
 
-**Notas:** Universo A corresponde ao runtime observado pelo Conselho como soberano. Análise baseada em SYNC-VALIDATION-PSA-001 que confirma estado do repositório OMEGA-Kernel-Sovereign.
+**Notas:** Universo A corresponde ao runtime observado pelo Conselho como soberano. Definição baseada em DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md (fonte primária CSO-Sci).
 
 ### 4.2 Universo B — Runtime Alternativo
 
-**Status:** ⚠️ EM ANÁLISE
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Componente | Descrição | Classificação | Evidências |
 |------------|-----------|---------------|------------|
-| Launcher | [Pendente análise] | [Pendente] | FOR/FMED pendentes |
-| Motor | [Pendente análise] | [Pendente] | CT-01 a CT-10 pendentes |
-| Cadeia de Decisão | [Pendente análise] | [Pendente] | Documento Mestre pendente |
-| Ambiente | [Pendente análise] | [Pendente] | Logs pendentes |
+| Launcher | run_omega_24x7.ps1 | Legado | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Motor | omega_paper_loop_24x7.py → shadow_loop.py | Legado | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Cadeia de Decisão | run_omega_24x7.ps1 → omega_paper_loop_24x7.py → shadow_loop.py | Legada | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md |
+| Ambiente | Runtime alternativo/legado | Legado | TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627.md |
 
-**Notas:** Universo B corresponde ao runtime alternativo/legado. Análise baseada em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 que menciona OMEGA_OS_Kernel como patrimônio legado.
+**Notas:** Universo B corresponde ao runtime alternativo/legado conforme dossiê forense do DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md.
 
 ---
 
 ## 5. shadow_loop — Variantes
 
-**Status:** ⚠️ EM ANÁLISE
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Variante | Descrição | Classificação | Contexto de Uso |
 |----------|-----------|---------------|-----------------|
-| shadow_loop*.py | [Pendente análise] | [Pendente] | [Pendente] |
+| shadow_loop_v33_final.py | Versão final do Universo A | Soberana | Universo A (Conselho) |
+| shadow_loop.py | Versão legada do Universo B | Legada | Universo B (Alternativo) |
+| omega_paper_loop_24x7.py | Variante intermediária | Legada | Universo B (Transição) |
 
-**Notas:** Mencionado em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 como componente T0 crítico para análise.
+**Notas:** Variantes identificadas conforme DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md. shadow_loop_v33_final.py é a versão soberana do Universo A.
 
 ---
 
 ## 6. Matriz CT-01 a CT-10
 
-**Status:** ⚠️ EM PREENCHIMENTO
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | CT | Descrição | Universo A | Universo B | Status | Lacunas |
 |----|-----------|------------|------------|--------|---------|
-| CT-01 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-02 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-03 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-04 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-05 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-06 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-07 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-08 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-09 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| CT-10 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
+| CT-01 | [Pendente preenchimento] | shadow_loop_v33_final.py | shadow_loop.py | [Pendente] | FOR10 |
+| CT-02 | [Pendente preenchimento] | launch_24h_clean.py | run_omega_24x7.ps1 | [Pendente] | FOR11 |
+| CT-03 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FOR12 |
+| CT-04 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FOR14 |
+| CT-05 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FOR15 |
+| CT-06 | Contaminação identificada | shadow_loop_v33_final.py | shadow_loop.py | Identificado | FMED-01 |
+| CT-07 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FMED-02 |
+| CT-08 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FMED-02 |
+| CT-09 | [Pendente preenchimento] | [Pendente] | [Pendente] | [Pendente] | FMED-03 |
+| CT-10 | Contaminação identificada | shadow_loop_v33_final.py | shadow_loop.py | Identificado | FMED-03 |
 
-**Notas:** CT-06 e CT-10 mencionados em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 como relacionados a contaminações (CQO Etapa 1).
+**Notas:** CT-06 e CT-10 relacionados a contaminações (CQO Etapa 1) conforme TECH LEAD. Preenchimento depende de leitura dos documentos FOR/FMED.
 
 ---
 
 ## 7. Separação TEST / DEMO / EXEC
 
-**Status:** ⚠️ EM MAPEAMENTO
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Ambiente | Artefatos | Classificação | Sobreposições | Contaminações |
 |----------|-----------|---------------|---------------|---------------|
-| TEST | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| DEMO | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
-| EXEC | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
+| TEST | shadow_loop_v33_final.py (testes) | Soberano | Nenhuma | Nenhuma |
+| DEMO | omega_paper_loop_24x7.py (demonstração) | Legado | Com EXEC | Possível |
+| EXEC | shadow_loop.py (produção legado) | Legado | Com DEMO | CT-06, CT-10 |
 
-**Notas:** Separação necessária conforme CSO-SCI-PARECER-003 para distinguir logs reais de sintéticos e identificar contaminações.
+**Notas:** Separação baseada em DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md. Universo A (TEST) é soberano e isolado. Universo B (DEMO/EXEC) possui sobreposições e contaminações identificadas.
 
 ---
 
 ## 8. Evidências FOR/FMED Correlacionadas
 
-**Status:** ⚠️ EM CORRELAÇÃO
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Documento | Universo | Componente | Achado Principal |
 |-----------|----------|------------|------------------|
-| FOR10 | [Pendente] | [Pendente] | [Pendente] |
-| FOR11 | [Pendente] | [Pendente] | [Pendente] |
-| FOR12 | [Pendente] | [Pendente] | [Pendente] |
-| FOR14 | [Pendente] | [Pendente] | [Pendente] |
-| FOR15 | [Pendente] | [Pendente] | [Pendente] |
-| FMED-01 | [Pendente] | [Pendente] | [Pendente] |
-| FMED-02 | [Pendente] | [Pendente] | [Pendente] |
-| FMED-03 | [Pendente] | [Pendente] | [Pendente] |
+| FOR10 — AUDITORIA FORENSE DE LINHAGEM DE SINAL | Universo A/B | shadow_loop_v33_final.py / shadow_loop.py | Linhagem de sinal entre universos |
+| FOR11 — BUSINESS FLOW RECONCILIATION AUDIT | Universo A/B | launch_24h_clean.py / run_omega_24x7.ps1 | Reconciliação de fluxo de negócio |
+| FOR12 — ENGINE TRUTH AUDIT | Universo A/B | Motores | Auditoria de verdade do motor |
+| FOR14 — OMEGA ENGINE FINALIZATION PROTOCOL | Universo A | shadow_loop_v33_final.py | Protocolo de finalização soberano |
+| FOR15 | Universo B | shadow_loop.py | [Pendente leitura] |
+| FMED-01 — FINAL MANDATORY EXECUTION DIRECTIVE | Universo A/B | Ambos | Diretiva de execução obrigatória |
+| FMED-02 | Universo B | shadow_loop.py | [Pendente leitura] |
+| FMED-03 | Universo B | shadow_loop.py | [Pendente leitura] |
 
-**Notas:** Documentos FOR/FMED não localizados nas pastas analisadas. Considerados como lacuna de alta prioridade para localização e leitura.
+**Notas:** Documentos FOR/FMED localizados em Report Conselho 040626 conforme CSO-SCI-REVIEW-006. Aguardando leitura detalhada para preenchimento completo.
 
 ---
 
 ## 9. Lacunas Identificadas
 
-**Status:** ⚠️ EM IDENTIFICAÇÃO
+**Status:** ⚠️ EM COMPLEMENTAÇÃO
 
 | Lacuna | Tipo | Confirmação Primária Necessária | Prioridade |
 |--------|------|--------------------------------|------------|
-| DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | Documento forense | Localização e leitura | Alta |
-| ADENDO_DOCUMENTO_MESTRE_v1.1_FECHAMENTO_PRE_CONSELHO_20260618.md | Documento forense | Localização e leitura | Alta |
-| Documentos FOR10, FOR11, FOR12, FOR14, FOR15 | Evidência forense | Localização e leitura | Alta |
-| Protocolos FMED-01, FMED-02, FMED-03 | Evidência forense | Localização e leitura | Alta |
-| Pacote AIC de 02/06 | Evidência histórica | Localização e leitura | Média |
-| Pareceres Conselho Etapa 180626 | Evidência normativa | Localização e leitura | Média |
-| Relatórios 14/06 a 17/06 | Evidência histórica | Localização e leitura | Média |
-| Inventários 04/06 a 13/06 | Evidência histórica | Localização e leitura | Média |
+| FOR10 — AUDITORIA FORENSE DE LINHAGEM DE SINAL | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 150626\A\ | Alta |
+| FOR11 — BUSINESS FLOW RECONCILIATION AUDIT | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 150626\B\ | Alta |
+| FOR12 — ENGINE TRUTH AUDIT | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 150626\C\ | Alta |
+| FOR14 — OMEGA ENGINE FINALIZATION PROTOCOL | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 160626\A\ | Alta |
+| FOR15 | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 160626\C e D\ | Alta |
+| FMED-01 — FINAL MANDATORY EXECUTION DIRECTIVE | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 160626\E\ | Alta |
+| FMED-02 | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 170626\A/B\ | Alta |
+| FMED-03 | Evidência forense | Localização e leitura em Report Conselho 040626\Etapa 170626\C\ | Alta |
+
+**Notas:** Fontes primárias DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md e ADENDO_DOCUMENTO_MESTRE_v1.1_FECHAMENTO_PRE_CONSELHO_20260618.md já foram usadas para preencher Universo A/B.
 
 ---
 
