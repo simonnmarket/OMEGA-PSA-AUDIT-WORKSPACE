@@ -6,9 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** RUNTIME-SOVEREIGNTY-MAP-001 · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-008  
-**Status:** 🚀 EM CONSTRUÇÃO — FASE 2.3  
+**Status:** ✅ APROVADO COMO INÍCIO CONTROLADO — FASE 2.3  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Autorização:** CSO-SCI-REVIEW-008 (condicionado à rastreabilidade forense)
+**Status CSO-SCI-REVIEW-009:** APROVADO COMO INÍCIO CONTROLADO COM CONDICIONANTE DE RASTREABILIDADE FORENSE  
+**Próximo passo:** CSO-SCI-REVIEW-010 (ARCHITECTURE_MAP Consolidado)
 
 ---
 
@@ -39,7 +40,7 @@ Separar entre arquitetura real, runtime observado e runtime legado, herdando exp
 
 ### 3.1 Arquitetura Real
 
-**Status:** ⚠️ BLOQUEIO PARCIAL DE RASTREABILIDADE
+**Status:** ⚠️ BLOQUEIO PARCIAL DE RASTREABILIDADE — CONDICIONADO
 
 | Componente | Universo | Evidência | Status | Impacto |
 |------------|----------|-----------|--------|---------|
@@ -47,6 +48,8 @@ Separar entre arquitetura real, runtime observado e runtime legado, herdando exp
 | Motor A | Universo A | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
 | Launcher B | Universo B | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
 | Motor B | Universo B | DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | ❌ Lacuna | Bloqueio rastreabilidade |
+
+**⚠️ CONDICIONANTE:** Esta seção depende de evidências forenses pendentes (EVID-F001, EVID-F002).
 
 ### 3.2 Runtime Observado (Universo A)
 
@@ -96,14 +99,18 @@ Separar entre arquitetura real, runtime observado e runtime legado, herdando exp
 - **Universo A:** shadow_loop_v33_final.py
 - **Universo B:** shadow_loop.py
 - **Evidência:** FMED-01 (pendente localização)
-- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE
+- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE — CONDICIONADO
+
+**⚠️ CONDICIONANTE:** Esta seção depende de evidência forense pendente (EVID-F008).
 
 ### 5.2 CT-10 — Contaminação Identificada
 
 - **Universo A:** shadow_loop_v33_final.py
 - **Universo B:** shadow_loop.py
 - **Evidência:** FMED-03 (pendente localização)
-- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE
+- **Status:** ⚠️ PENDENTE CONFIRMAÇÃO FORENSE — CONDICIONADO
+
+**⚠️ CONDICIONANTE:** Esta seção depende de evidência forense pendente (EVID-F010).
 
 ---
 
