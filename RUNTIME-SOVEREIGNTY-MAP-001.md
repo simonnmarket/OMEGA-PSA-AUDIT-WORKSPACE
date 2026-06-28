@@ -64,6 +64,8 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 | Cadeia de Decisão | [Pendente análise] | [Pendente] | Documento Mestre pendente |
 | Ambiente | [Pendente análise] | [Pendente] | Logs pendentes |
 
+**Notas:** Universo A corresponde ao runtime observado pelo Conselho como soberano. Análise baseada em SYNC-VALIDATION-PSA-001 que confirma estado do repositório OMEGA-Kernel-Sovereign.
+
 ### 4.2 Universo B — Runtime Alternativo
 
 **Status:** ⚠️ EM ANÁLISE
@@ -75,6 +77,8 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 | Cadeia de Decisão | [Pendente análise] | [Pendente] | Documento Mestre pendente |
 | Ambiente | [Pendente análise] | [Pendente] | Logs pendentes |
 
+**Notas:** Universo B corresponde ao runtime alternativo/legado. Análise baseada em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 que menciona OMEGA_OS_Kernel como patrimônio legado.
+
 ---
 
 ## 5. shadow_loop — Variantes
@@ -83,7 +87,9 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 
 | Variante | Descrição | Classificação | Contexto de Uso |
 |----------|-----------|---------------|-----------------|
-| [Pendente] | [Pendente análise] | [Pendente] | [Pendente] |
+| shadow_loop*.py | [Pendente análise] | [Pendente] | [Pendente] |
+
+**Notas:** Mencionado em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 como componente T0 crítico para análise.
 
 ---
 
@@ -104,6 +110,8 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 | CT-09 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
 | CT-10 | [Pendente] | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
 
+**Notas:** CT-06 e CT-10 mencionados em TECH LEAD - DOCUMENTO_FINAL_ANALISE_ETAPA35_CEO-DIRECTIVE-027_20260627 como relacionados a contaminações (CQO Etapa 1).
+
 ---
 
 ## 7. Separação TEST / DEMO / EXEC
@@ -115,6 +123,8 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 | TEST | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
 | DEMO | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
 | EXEC | [Pendente] | [Pendente] | [Pendente] | [Pendente] |
+
+**Notas:** Separação necessária conforme CSO-SCI-PARECER-003 para distinguir logs reais de sintéticos e identificar contaminações.
 
 ---
 
@@ -133,6 +143,8 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 | FMED-02 | [Pendente] | [Pendente] | [Pendente] |
 | FMED-03 | [Pendente] | [Pendente] | [Pendente] |
 
+**Notas:** Documentos FOR/FMED não localizados nas pastas analisadas. Considerados como lacuna de alta prioridade para localização e leitura.
+
 ---
 
 ## 9. Lacunas Identificadas
@@ -141,7 +153,14 @@ Este documento é o primeiro entregável da FASE 2, conforme recomendação do C
 
 | Lacuna | Tipo | Confirmação Primária Necessária | Prioridade |
 |--------|------|--------------------------------|------------|
-| [Pendente] | [Pendente] | [Pendente] | [Pendente] |
+| DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md | Documento forense | Localização e leitura | Alta |
+| ADENDO_DOCUMENTO_MESTRE_v1.1_FECHAMENTO_PRE_CONSELHO_20260618.md | Documento forense | Localização e leitura | Alta |
+| Documentos FOR10, FOR11, FOR12, FOR14, FOR15 | Evidência forense | Localização e leitura | Alta |
+| Protocolos FMED-01, FMED-02, FMED-03 | Evidência forense | Localização e leitura | Alta |
+| Pacote AIC de 02/06 | Evidência histórica | Localização e leitura | Média |
+| Pareceres Conselho Etapa 180626 | Evidência normativa | Localização e leitura | Média |
+| Relatórios 14/06 a 17/06 | Evidência histórica | Localização e leitura | Média |
+| Inventários 04/06 a 13/06 | Evidência histórica | Localização e leitura | Média |
 
 ---
 
