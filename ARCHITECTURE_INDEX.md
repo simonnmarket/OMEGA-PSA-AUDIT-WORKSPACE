@@ -6,9 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** ARCHITECTURE_MAP · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-011  
-**Status:** ✅ CONSOLIDADO — ÍNDICE NAVEGÁVEL COMPLETO — FASE 2.5  
+**Status:** ✅ APROVADO COM CONDICIONANTES — FASE 2.5 CONCLUÍDA  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Autorização:** CSO-SCI-REVIEW-011 (próximo artefato documental previsto)
+**Status CSO-SCI-REVIEW-012:** APROVADO COMO ÍNDICE ARQUITETURAL CONSOLIDADO  
+**Próximo passo:** FASE 2.6 — PARITY-PRECHECK-MATRIX (conforme recomendação CSO-Sci)
 
 ---
 
