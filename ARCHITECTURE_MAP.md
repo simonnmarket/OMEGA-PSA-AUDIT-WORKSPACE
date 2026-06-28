@@ -6,10 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** RUNTIME-SOVEREIGNTY-MAP-001 · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-008  
-**Status:** ✅ CONSOLIDADO — ENTREGA SUBSTANTIVA COMPLETA — FASE 2.4  
+**Status:** ✅ APROVADO COM CONDICIONANTES — FASE 2.4 CONCLUÍDA  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Status CSO-SCI-CLOSURE-010:** FASE 2.1 ENCERRADA — CICLO DE SOBERANIA DE RUNTIME FINALIZADO  
-**Próximo passo:** CSO-SCI-REVIEW-011 (Revisão Científica do ARCHITECTURE_MAP Consolidado)
+**Status CSO-SCI-REVIEW-011:** APROVADO COM CONDICIONANTES — MAPA ARQUITETURAL CONSOLIDADO  
+**Próximo passo:** FASE 2.5 — ARCHITECTURE_INDEX (conforme recomendação CSO-Sci)
 
 ---
 
