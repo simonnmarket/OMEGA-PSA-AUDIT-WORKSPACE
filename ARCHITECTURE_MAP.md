@@ -6,10 +6,10 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** RUNTIME-SOVEREIGNTY-MAP-001 · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-008  
-**Status:** ✅ APROVADO COMO INÍCIO CONTROLADO — FASE 2.3  
+**Status:** ✅ FASE 2.1 ENCERRADA — PROSSEGUIR PARA CONSOLIDAÇÃO — FASE 2.4  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
-**Status CSO-SCI-REVIEW-009:** APROVADO COMO INÍCIO CONTROLADO COM CONDICIONANTE DE RASTREABILIDADE FORENSE  
-**Próximo passo:** CSO-SCI-REVIEW-010 (ARCHITECTURE_MAP Consolidado)
+**Status CSO-SCI-CLOSURE-010:** FASE 2.1 ENCERRADA — CICLO DE SOBERANIA DE RUNTIME FINALIZADO  
+**Próximo passo:** Consolidação substantiva do ARCHITECTURE_MAP (sem novo ciclo intermediário)
 
 ---
 
@@ -167,26 +167,64 @@ Este documento **não** recomenda implementação técnica.
 
 ---
 
-## 10. Status da FASE 2
+## 10. Encerramento da FASE 2.1 — Ciclo de Soberania de Runtime
+
+**Status:** ✅ FASE 2.1 ENCERRADA (CSO-SCI-CLOSURE-010)
+
+### 10.1 Entregáveis Finais
+
+| Entregável | Status Final | Data | Observações |
+|------------|-------------|------|-------------|
+| RUNTIME-SOVEREIGNTY-MAP-001 | ✅ APROVADO | 2026-06-28 | Mapa documental completo |
+| RUNTIME-EVIDENCE-INDEX-001 | ✅ APROVADO COM CONDICIONANTE | 2026-06-28 | Rastreabilidade forense pendente |
+| ARCHITECTURE_MAP | ✅ INÍCIO CONTROLADO | 2026-06-28 | Em consolidação, sem novo ciclo intermediário |
+
+### 10.2 Condicionantes Transportadas para FASE 2.4
+
+- **10 lacunas forenses:** Mantidas como bloqueios parciais de rastreabilidade
+- **CT-06 e CT-10:** Contaminantes relevantes preservados
+- **Universo A/B:** Separação estrita mantida
+- **OMEGA-Kernel-Sovereign vs OMEGA_OS_Kernel:** Sem fusão autorizada
+- **Paridade funcional:** Não declarada
+- **Migrações:** Não autorizadas
+- **AIC:** STANDBY mantido
+- **MIG-4/5/6:** Suspensas mantidas
+
+### 10.3 Diretriz Antiloop Aplicada
+
+A partir de CSO-SCI-CLOSURE-010, não serão gerados novos documentos de confirmação sem avanço substantivo.
+
+**Avanços substantivos esperados:**
+- Localização de evidência forense crítica
+- Preenchimento real de seção arquitetural
+- Consolidação final do mapa
+- Identificação de nova lacuna crítica
+- Decisão formal do CEO/Conselho
+
+## 11. Status da FASE 2
 
 | Entregável | Status | Data | Observações |
 |------------|--------|------|-------------|
 | RUNTIME-SOVEREIGNTY-MAP-001 | ✅ APROVADO | 2026-06-28 | Mapa documental completo |
 | RUNTIME-EVIDENCE-INDEX-001 | ✅ APROVADO COM CONDICIONANTE | 2026-06-28 | Rastreabilidade forense pendente |
-| ARCHITECTURE_MAP | 🚀 EM CONSTRUÇÃO | 2026-06-28 | Aguardando evidências forenses |
+| ARCHITECTURE_MAP | 🚀 EM CONSOLIDAÇÃO | 2026-06-28 | FASE 2.4 — Sem novo ciclo intermediário |
 
 ---
 
-## 11. Próximos Passos
+## 12. Próximos Passos — FASE 2.4
 
-1. **Localizar evidências forenses:** Report Conselho 040626
-2. **Completar rastreabilidade:** Evid-F001 a Evid-F010
-3. **Remover bloqueios parciais:** Permitir ratificação completa
-4. **Preparar CSO-SCI-REVIEW-009:** Após localização das evidências
+**Diretriz Antiloop:** Sem novos ciclos de confirmação. Apenas entregas substantivas.
+
+1. **Consolidação do ARCHITECTURE_MAP:** Preenchimento real de seções arquiteturais
+2. **Localização de evidências forenses:** Report Conselho 040626 (se possível)
+3. **Manutenção de condicionantes:** Bloqueios parciais preservados
+4. **Preparação para CSO-SCI-REVIEW-011:** Apenas quando houver entrega consolidada
+
+**Próxima entrega esperada:** ARCHITECTURE_MAP consolidado com conteúdo completo.
 
 ---
 
-## 12. Declaração de Restrições
+## 13. Declaração de Restrições
 
 Este documento foi elaborado estritamente em modo descritivo, conforme metodologia da `COUNCIL-DIRECTIVE-029`.
 
