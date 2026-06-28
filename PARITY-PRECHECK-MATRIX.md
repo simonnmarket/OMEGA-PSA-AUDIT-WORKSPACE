@@ -31,7 +31,7 @@ Preparar a análise futura de paridade funcional, identificar componentes compar
 
 ### 2.3 Status Consolidado da Análise
 
-**Resultado Final:** ❌ **PARIDADE FUNCIONAL NÃO ANALISÁVEL — BLOQUEIOS PERMANENTES ATÉ RESOLUÇÃO DE LACUNAS**
+**Resultado Final:** ❌ **PARIDADE FUNCIONAL NÃO ANALISÁVEL — BLOQUEIOS VIGENTES ATÉ RESOLUÇÃO FORMAL DAS LACUNAS E CONDICIONANTES**
 
 **Condições para Análise Futura:**
 1. **Localização de EVID-F001:** DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md
@@ -40,7 +40,7 @@ Preparar a análise futura de paridade funcional, identificar componentes compar
 4. **Isolamento de contaminações:** Análise técnica de CT-06 e CT-10
 5. **Documentação completa:** Cadeias de decisão de ambos universos
 
-**Bloqueios Permanentes enquanto lacunas persistirem:**
+**Bloqueios Vigentes até resolução formal das lacunas e condicionantes:**
 - Nenhuma análise de comportamento autorizada
 - Nenhuma conclusão de equivalência permitida
 - Nenhuma inferência de paridade funcional aceita
