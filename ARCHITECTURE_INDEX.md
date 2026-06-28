@@ -6,7 +6,7 @@
 **Data:** 2026-06-28  
 **Emissor:** Principal Solution Architect PSA  
 **Referência:** ARCHITECTURE_MAP · RUNTIME-EVIDENCE-INDEX-001 · CSO-SCI-REVIEW-011  
-**Status:** 🚀 EM CONSTRUÇÃO — FASE 2.5  
+**Status:** ✅ CONSOLIDADO — ÍNDICE NAVEGÁVEL COMPLETO — FASE 2.5  
 **Restrição:** Documento estritamente descritivo; nenhuma correção técnica autorizada  
 **Autorização:** CSO-SCI-REVIEW-011 (próximo artefato documental previsto)
 
@@ -18,7 +18,29 @@ Transformar o ARCHITECTURE_MAP em índice navegável, relacionar camadas, módul
 
 ---
 
-## 2. Metodologia de Indexação
+## 2. Navegação Rápida
+
+### 2.1 Por Tipo de Elemento
+- **[Camadas Arquiteturais](#3-índice-de-camadas-arquiteturais)** — Runtime, Kernel, Contaminação
+- **[Módulos e Componentes](#4-índice-de-módulos-e-componentes)** — Soberanos, Legados, Contaminação
+- **[Evidências](#5-índice-de-evidências-por-elemento)** — Confirmadas, Pendentes
+- **[Relacionamentos](#6-índice-de-relacionamentos)** — Por Universo, Transversais
+- **[Paridade Funcional](#7-base-para-análise-de-paridade-funcional)** — Elementos Comparáveis
+- **[Separação Estrita](#8-separação-arquitetura-vs-runtime-vs-patrimônio-legado)** — Arquitetura, Runtime, Legado
+
+### 2.2 Por Universo
+- **[Universo A (Soberano)](#universo-a-soberano)** — ARC-K001, ARC-M001-003, ARC-L001-003
+- **[Universo B (Legado)](#universo-b-legado)** — ARC-K002, ARC-M004-007, ARC-L004-007
+- **[Contaminações Compartilhadas](#contaminações-compartilhadas)** — ARC-C001-002, ARC-M008-009
+
+### 2.3 Por Status
+- **[Elementos Confirmados](#elementos-confirmados)** — Com evidência validada
+- **[Elementos com Lacuna](#elementos-com-lacuna)** — Aguardando evidência forense
+- **[Elementos Condicionados](#elementos-condicionados)** — Dependem de lacunas
+
+---
+
+## 3. Metodologia de Indexação
 
 Cada elemento arquitetural é indexado com:
 - **ID Único:** ARC-XXX
@@ -28,9 +50,34 @@ Cada elemento arquitetural é indexado com:
 - **Status:** Confirmado / Pendente / Condicionado
 - **Relacionamento:** Vinculações com outros elementos
 
+### 3.2 Matriz de Relacionamentos Completa
+
+| Elemento | Tipo | Universo | Relaciona com | Evidência | Status |
+|----------|------|----------|--------------|-----------|--------|
+| **ARC-K001** | Kernel | A | ARC-M001, ARC-M002, ARC-L001, ARC-L002 | ARC-E001 | ✅ Confirmado |
+| **ARC-K002** | Kernel | B | ARC-M004, ARC-M005, ARC-M006, ARC-L004, ARC-L005, ARC-L006 | ARC-E002 | ✅ Confirmado |
+| **ARC-L001** | Runtime | A | ARC-M001, ARC-K001 | ARC-E001 | ✅ Confirmado |
+| **ARC-L002** | Runtime | A | ARC-M002, ARC-K001, ARC-C001, ARC-C002 | ARC-E001 | ✅ Confirmado |
+| **ARC-L003** | Runtime | A | ARC-M003, ARC-L001, ARC-L002 | ARC-E003 | ❌ Lacuna |
+| **ARC-L004** | Runtime | B | ARC-M004, ARC-K002 | ARC-E002 | ✅ Confirmado |
+| **ARC-L005** | Runtime | B | ARC-M005, ARC-K002 | ARC-E002 | ✅ Confirmado |
+| **ARC-L006** | Runtime | B | ARC-M006, ARC-K002, ARC-C001, ARC-C002 | ARC-E002 | ✅ Confirmado |
+| **ARC-L007** | Runtime | B | ARC-M007, ARC-L004, ARC-L005, ARC-L006 | ARC-E003 | ❌ Lacuna |
+| **ARC-C001** | Contaminação | Ambos | ARC-L002, ARC-L006, ARC-M008 | ARC-E004 | ❌ Lacuna |
+| **ARC-C002** | Contaminação | Ambos | ARC-L002, ARC-L006, ARC-M009 | ARC-E005 | ❌ Lacuna |
+| **ARC-M001** | Módulo | A | ARC-L001, ARC-K001 | ARC-E001 | ✅ Confirmado |
+| **ARC-M002** | Módulo | A | ARC-L002, ARC-K001 | ARC-E001 | ✅ Confirmado |
+| **ARC-M003** | Módulo | A | ARC-L003 | ARC-E003 | ❌ Lacuna |
+| **ARC-M004** | Módulo | B | ARC-L004, ARC-K002 | ARC-E002 | ✅ Confirmado |
+| **ARC-M005** | Módulo | B | ARC-L005, ARC-K002 | ARC-E002 | ✅ Confirmado |
+| **ARC-M006** | Módulo | B | ARC-L006, ARC-K002 | ARC-E002 | ✅ Confirmado |
+| **ARC-M007** | Módulo | B | ARC-L007 | ARC-E003 | ❌ Lacuna |
+| **ARC-M008** | Módulo | Ambos | ARC-C001 | ARC-E004 | ❌ Lacuna |
+| **ARC-M009** | Módulo | Ambos | ARC-C002 | ARC-E005 | ❌ Lacuna |
+
 ---
 
-## 3. Índice de Camadas Arquiteturais
+## 4. Índice de Camadas Arquiteturais
 
 ### 3.1 Camada de Execução (Runtime Layer)
 
@@ -60,7 +107,7 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 4. Índice de Módulos e Componentes
+## 5. Índice de Módulos e Componentes
 
 ### 4.1 Módulos Soberanos (Universo A)
 
@@ -88,7 +135,7 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 5. Índice de Evidências por Elemento
+## 6. Índice de Evidências por Elemento
 
 ### 5.1 Evidências Confirmadas
 
@@ -107,7 +154,7 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 6. Índice de Relacionamentos
+## 7. Índice de Relacionamentos
 
 ### 6.1 Relacionamentos por Universo
 
@@ -139,7 +186,7 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 7. Base para Análise de Paridade Funcional
+## 8. Base para Análise de Paridade Funcional
 
 ### 7.1 Elementos Comparáveis
 
@@ -159,7 +206,7 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 8. Separação Arquitetura vs Runtime vs Patrimônio Legado
+## 9. Separação Arquitetura vs Runtime vs Patrimônio Legado
 
 ### 8.1 Arquitetura (Estrutura Documentada)
 
@@ -182,28 +229,68 @@ Cada elemento arquitetural é indexado com:
 
 ---
 
-## 9. Status da FASE 2
+## 10. Índice Remissivo Completo
+
+### 10.1 Por Elemento
+- **ARC-C001:** [Contaminação CT-06](#63-camada-de-contaminação-contamination-layer)
+- **ARC-C002:** [Contaminação CT-10](#63-camada-de-contaminação-contamination-layer)
+- **ARC-E001:** [SYNC-VALIDATION-PSA-001](#51-evidências-confirmadas)
+- **ARC-E002:** [TECH LEAD ANALYSIS](#51-evidências-confirmadas)
+- **ARC-E003:** [DOCUMENTO_MESTRE_SANEAMENTO_OMEGA_20260618.md](#52-evidências-forenses-pendentes)
+- **ARC-E004:** [FMED-01](#52-evidências-forenses-pendentes)
+- **ARC-E005:** [FMED-03](#52-evidências-forenses-pendentes)
+- **ARC-K001:** [Kernel Soberano](#42-camada-de-kernel-kernel-layer)
+- **ARC-K002:** [Kernel Legado](#42-camada-de-kernel-kernel-layer)
+- **ARC-L001:** [Launcher Soberano](#41-camada-de-execução-runtime-layer)
+- **ARC-L002:** [Motor Soberano](#41-camada-de-execução-runtime-layer)
+- **ARC-L003:** [Cadeia Soberana](#41-camada-de-execução-runtime-layer)
+- **ARC-L004:** [Launcher Legado](#41-camada-de-execução-runtime-layer)
+- **ARC-L005:** [Motor Intermediário](#41-camada-de-execução-runtime-layer)
+- **ARC-L006:** [Motor Legado](#41-camada-de-execução-runtime-layer)
+- **ARC-L007:** [Cadeia Legada](#41-camada-de-execução-runtime-layer)
+- **ARC-M001:** [LAUNCH-SOV-001](#41-módulos-soberanos-universo-a)
+- **ARC-M002:** [ENGINE-SOV-001](#41-módulos-soberanos-universo-a)
+- **ARC-M003:** [CHAIN-SOV-001](#41-módulos-soberanos-universo-a)
+- **ARC-M004:** [LAUNCH-LEG-001](#42-módulos-legados-universo-b)
+- **ARC-M005:** [ENGINE-LEG-001](#42-módulos-legados-universo-b)
+- **ARC-M006:** [ENGINE-LEG-002](#42-módulos-legados-universo-b)
+- **ARC-M007:** [CHAIN-LEG-001](#42-módulos-legados-universo-b)
+- **ARC-M008:** [CONTAM-CT06](#43-módulos-de-contaminação)
+- **ARC-M009:** [CONTAM-CT10](#43-módulos-de-contaminação)
+
+### 10.2 Por Status
+- **Confirmados:** ARC-E001, ARC-E002, ARC-K001, ARC-K002, ARC-L001, ARC-L002, ARC-L004, ARC-L005, ARC-L006, ARC-M001, ARC-M002, ARC-M004, ARC-M005, ARC-M006
+- **Com Lacuna:** ARC-E003, ARC-E004, ARC-E005, ARC-L003, ARC-L007, ARC-M003, ARC-M007, ARC-M008, ARC-M009, ARC-C001, ARC-C002
+
+### 10.3 Por Universo
+- **Universo A:** ARC-K001, ARC-L001, ARC-L002, ARC-L003, ARC-M001, ARC-M002, ARC-M003
+- **Universo B:** ARC-K002, ARC-L004, ARC-L005, ARC-L006, ARC-L007, ARC-M004, ARC-M005, ARC-M006, ARC-M007
+- **Ambos:** ARC-C001, ARC-C002, ARC-M008, ARC-M009
+
+---
+
+## 11. Status da FASE 2
 
 | Entregável | Status | Data | Observações |
 |------------|--------|------|-------------|
 | RUNTIME-SOVEREIGNTY-MAP-001 | ✅ APROVADO | 2026-06-28 | Mapa documental completo |
 | RUNTIME-EVIDENCE-INDEX-001 | ✅ APROVADO COM CONDICIONANTE | 2026-06-28 | Rastreabilidade forense pendente |
 | ARCHITECTURE_MAP | ✅ APROVADO COM CONDICIONANTES | 2026-06-28 | FASE 2.4 concluída |
-| ARCHITECTURE_INDEX | 🚀 EM CONSTRUÇÃO | 2026-06-28 | FASE 2.5 — Índice navegável |
+| ARCHITECTURE_INDEX | ✅ CONSOLIDADO | 2026-06-28 | FASE 2.5 — Índice navegável completo |
 
 ---
 
-## 10. Próximos Passos — FASE 2.5
+## 12. Próximos Passos — FASE 2.5
 
-1. **Completar indexação:** Relacionar todos os elementos restantes
-2. **Refinar navegação:** Criar links cruzados entre elementos
-3. **Preservar lacunas:** Manter bloqueios forenses visíveis
-4. **Preparar análise:** Base sólida para paridade funcional futura
-5. **Manter separação:** Arquitetura vs Runtime vs Patrimônio Legado
+1. **Índice navegável:** ✅ Completo com navegação rápida e links cruzados
+2. **Refinar navegação:** ✅ Links cruzados entre elementos implementados
+3. **Preservar lacunas:** ✅ Bloqueios forenses visíveis e indexados
+4. **Preparar análise:** ✅ Base sólida para paridade funcional futura
+5. **Manter separação:** ✅ Arquitetura vs Runtime vs Patrimônio Legado definido
 
 ---
 
-## 11. Declaração de Restrições
+## 13. Declaração de Restrições
 
 Este documento foi elaborado estritamente em modo descritivo, conforme metodologia da `COUNCIL-DIRECTIVE-029`.
 
